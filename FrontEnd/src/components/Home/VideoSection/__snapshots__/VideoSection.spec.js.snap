@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Home Videos Heading exists 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        id="video"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="order-lg-1 order-2 col-lg-6 col-12"
+            >
+              <div
+                class="video__content-cont d-flex flex-column"
+              >
+                <h2
+                  class="video__heading"
+                >
+                  A NICE HEADLINE
+                </h2>
+                <p
+                  class="video__para"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipsc ingipsum dolor sit amet, consetetur sadipscing
+                </p>
+                <div
+                  class="video__features"
+                >
+                  <div
+                    class="video__feature"
+                  >
+                    <svg
+                      class="video__feature-icon"
+                    >
+                      circle.svg
+                    </svg>
+                    LOREM IPSAM
+                  </div>
+                  <div
+                    class="video__feature"
+                  >
+                    <svg
+                      class="video__feature-icon"
+                    >
+                      circle.svg
+                    </svg>
+                    LOREM IPSAM
+                  </div>
+                  <div
+                    class="video__feature"
+                  >
+                    <svg
+                      class="video__feature-icon"
+                    >
+                      circle.svg
+                    </svg>
+                    LOREM IPSAM
+                  </div>
+                  <div
+                    class="video__feature"
+                  >
+                    <svg
+                      class="video__feature-icon"
+                    >
+                      circle.svg
+                    </svg>
+                    LOREM IPSAM
+                  </div>
+                </div>
+                <a
+                  class="video__join-portal"
+                  href="/register"
+                >
+                  <svg
+                    class="video__join-portal-icon"
+                  >
+                    joinPortal.svg
+                  </svg>
+                  Join Portal to Unlock all the Features
+                </a>
+              </div>
+            </div>
+            <div
+              class="order-lg-2 order-1 col-lg-6 col-12"
+            >
+              <div
+                class="video__container"
+              >
+                <div
+                  class="video__cont"
+                >
+                  <div
+                    class="video__overlay"
+                  />
+                  <img
+                    alt="video img"
+                    class="video__img"
+                    src="video.png"
+                  />
+                  <button
+                    class="video__open-video"
+                  >
+                    <svg
+                      class="video__play-icon"
+                    >
+                      play.svg
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      id="video"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="order-lg-1 order-2 col-lg-6 col-12"
+          >
+            <div
+              class="video__content-cont d-flex flex-column"
+            >
+              <h2
+                class="video__heading"
+              >
+                A NICE HEADLINE
+              </h2>
+              <p
+                class="video__para"
+              >
+                Lorem ipsum dolor sit amet, consetetur sadipsc ingipsum dolor sit amet, consetetur sadipscing
+              </p>
+              <div
+                class="video__features"
+              >
+                <div
+                  class="video__feature"
+                >
+                  <svg
+                    class="video__feature-icon"
+                  >
+                    circle.svg
+                  </svg>
+                  LOREM IPSAM
+                </div>
+                <div
+                  class="video__feature"
+                >
+                  <svg
+                    class="video__feature-icon"
+                  >
+                    circle.svg
+                  </svg>
+                  LOREM IPSAM
+                </div>
+                <div
+                  class="video__feature"
+                >
+                  <svg
+                    class="video__feature-icon"
+                  >
+                    circle.svg
+                  </svg>
+                  LOREM IPSAM
+                </div>
+                <div
+                  class="video__feature"
+                >
+                  <svg
+                    class="video__feature-icon"
+                  >
+                    circle.svg
+                  </svg>
+                  LOREM IPSAM
+                </div>
+              </div>
+              <a
+                class="video__join-portal"
+                href="/register"
+              >
+                <svg
+                  class="video__join-portal-icon"
+                >
+                  joinPortal.svg
+                </svg>
+                Join Portal to Unlock all the Features
+              </a>
+            </div>
+          </div>
+          <div
+            class="order-lg-2 order-1 col-lg-6 col-12"
+          >
+            <div
+              class="video__container"
+            >
+              <div
+                class="video__cont"
+              >
+                <div
+                  class="video__overlay"
+                />
+                <img
+                  alt="video img"
+                  class="video__img"
+                  src="video.png"
+                />
+                <button
+                  class="video__open-video"
+                >
+                  <svg
+                    class="video__play-icon"
+                  >
+                    play.svg
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

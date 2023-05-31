@@ -1,0 +1,131 @@
+
+#video{
+    background-color: white;
+    padding: 110px;
+}
+.video__heading{
+    font-size: 40px;
+    font-family: 'PlayFairBold';
+    margin-bottom: 15px;
+}
+.video__para{
+    font-size: 18px;
+    font-family: 'PoppinsMedium';
+    margin-bottom: 40px;
+}
+.video__features{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    margin-bottom: 30px;
+}
+.video__feature{
+    display: flex;
+    font-size: 20px;
+    font-family: 'PoppinsSemiBold';
+    color: black;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.video__feature-icon{
+    margin-right:18px
+}
+.video__join-portal{
+    background-color: var(--main-color);
+    padding: 15px 50px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    transition: var(--transition);
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.video__join-portal:hover{
+    color: white;
+    opacity: .9;
+}
+.video__join-portal-icon{
+    margin-right:10px
+}
+
+.video__container{
+    position: relative;
+    height:100%;
+}
+.video__open-video{
+    --size:100px;
+    position: absolute;
+    top: calc(50% - var(--size)/2);
+    right: calc(50% - var(--size)/2);
+    width:var(--size);
+    height:var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border: 0;
+    z-index: 10;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.video__img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.video__overlay{
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    background: url('assets/imgs/videoBG.png') repeat-x;
+    width: 264px;
+    height: 264px;
+}
+.video__cont{
+    position: relative;
+}
+@media(max-width:1024px){
+    #video {
+        padding: 110px 40px;
+    }
+}
+@media(max-width:992px){
+    #video{
+        padding: 70px 20px
+    }
+    .video__heading{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .video__para{
+        font-size: 16px;
+        text-align: center;
+    }
+    .video__feature{
+        justify-content: center;
+    }
+    .video__join-portal{
+        margin:auto
+    }
+}
+@media(max-width:426px){
+    .video__overlay{
+        display:none
+    }
+    .video__feature-icon{
+        margin-right: 5px;
+    }
+    .video__feature{
+        font-size: 16px;
+    }
+    .video__join-portal{
+        padding: 10px 20px;
+    }
+    .video__join-portal-icon{
+        width: 50px;
+    }
+    .video__feature-icon{
+        width: 20px;
+    }
+}

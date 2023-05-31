@@ -1,0 +1,455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Add Test  QuestionConfiguration 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+    <div>
+      <div
+        class="add-test__configuration-field-cont"
+      >
+        <div
+          class="add-test__configuration-label-cont d-flex flex-column align-items-start"
+        >
+          <label
+            class="add-test__config-label"
+          >
+            Question Number
+          </label>
+          <div
+            class="d-flex w-100 mt-3"
+          >
+            <input
+              class="add-test__configuration-input form-control"
+              min="1"
+              placeholder="please add Exam Time"
+              step="1"
+              type="number"
+              value=""
+            />
+            <button
+              class="question-number__add-button
+                    question-number__add-button--not-allowed"
+              disabled=""
+            >
+              <svg
+                class="question-number__add-button-icon"
+              >
+                plus.svg
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="question-control__answer-type-wrapper"
+      >
+        <div
+          class="d-flex align-items-center"
+        >
+          <label
+            class="question-control__answer-type-lable"
+          >
+            Question Alpha
+          </label>
+        </div>
+        <div
+          class="question-control__screens-type-cont"
+        >
+          <div
+            class="question-control__screen-type"
+          >
+            <input
+              class="question-control__screen-type-input"
+              id="answernumber"
+              name="examConfiguration.alpha_type"
+              type="radio"
+              value="number"
+            />
+            <label
+              class="question-control__screen-type-label"
+              for="answernumber"
+            >
+              <img
+                alt="number select"
+                class="question-control__screen-type-img"
+                src="numberAlphaBet.jpg"
+              />
+              <div
+                class="question-control__screen-type--selected
+                        d-none"
+              >
+                <svg
+                  class="question__checked-icon"
+                >
+                  checked.svg
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div
+            class="question-control__screen-type"
+          >
+            <input
+              class="question-control__screen-type-input"
+              id="answerEnglish"
+              name="examConfiguration.alpha_type"
+              type="radio"
+              value="english"
+            />
+            <label
+              class="question-control__screen-type-label"
+              for="answerEnglish"
+            >
+              <img
+                alt="english select"
+                class="question-control__screen-type-img"
+                src="englishAlphabet.jpg"
+              />
+              <div
+                class="question-control__screen-type--selected
+                            d-none"
+              >
+                <svg
+                  class="question__checked-icon"
+                >
+                  checked.svg
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div
+            class="question-control__screen-type"
+          >
+            <input
+              class="question-control__screen-type-input"
+              id="answerRoman"
+              name="examConfiguration.alpha_type"
+              type="radio"
+              value="roman"
+            />
+            <label
+              class="question-control__screen-type-label"
+              for="answerRoman"
+            >
+              <img
+                alt="roman"
+                class="question-control__screen-type-img"
+                src="romanAlpha.jpg"
+              />
+              <div
+                class="question-control__screen-type--selected
+                            d-none"
+              >
+                <svg
+                  class="question__checked-icon"
+                >
+                  checked.svg
+                </svg>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        class="add-test__configuration-field-cont"
+      >
+        <div
+          class="add-test__configuration-label-cont d-flex flex-column align-items-start"
+        >
+          <div
+            class="d-flex align-items-center w-100"
+          >
+            <label
+              class="add-test__config-label"
+            >
+              Add Question By Excel File
+            </label>
+            <a
+              class="add-test__config-download-button"
+              download=""
+              href="questions-modal.xlsx"
+            >
+              <svg
+                class="add-test__config-download-icon"
+              >
+                downladExcel.svg
+              </svg>
+            </a>
+          </div>
+          <div
+            class="d-flex w-100 mt-3"
+          >
+            <div
+              class="add-test__configuration-custom-input-wrapper"
+            >
+              <label
+                class="add-test__configuration-custom-input-label"
+                for="add-test__configuration-input"
+              >
+                Upload File
+              </label>
+              <input
+                accept=".xlsx,.xls"
+                class="add-test__configuration-input--file form-control"
+                id="add-test__configuration-input"
+                placeholder="please add Exam Time"
+                type="file"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="add-test__configuration-field-cont"
+    >
+      <div
+        class="add-test__configuration-label-cont d-flex flex-column align-items-start"
+      >
+        <label
+          class="add-test__config-label"
+        >
+          Question Number
+        </label>
+        <div
+          class="d-flex w-100 mt-3"
+        >
+          <input
+            class="add-test__configuration-input form-control"
+            min="1"
+            placeholder="please add Exam Time"
+            step="1"
+            type="number"
+            value=""
+          />
+          <button
+            class="question-number__add-button
+                    question-number__add-button--not-allowed"
+            disabled=""
+          >
+            <svg
+              class="question-number__add-button-icon"
+            >
+              plus.svg
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="question-control__answer-type-wrapper"
+    >
+      <div
+        class="d-flex align-items-center"
+      >
+        <label
+          class="question-control__answer-type-lable"
+        >
+          Question Alpha
+        </label>
+      </div>
+      <div
+        class="question-control__screens-type-cont"
+      >
+        <div
+          class="question-control__screen-type"
+        >
+          <input
+            class="question-control__screen-type-input"
+            id="answernumber"
+            name="examConfiguration.alpha_type"
+            type="radio"
+            value="number"
+          />
+          <label
+            class="question-control__screen-type-label"
+            for="answernumber"
+          >
+            <img
+              alt="number select"
+              class="question-control__screen-type-img"
+              src="numberAlphaBet.jpg"
+            />
+            <div
+              class="question-control__screen-type--selected
+                        d-none"
+            >
+              <svg
+                class="question__checked-icon"
+              >
+                checked.svg
+              </svg>
+            </div>
+          </label>
+        </div>
+        <div
+          class="question-control__screen-type"
+        >
+          <input
+            class="question-control__screen-type-input"
+            id="answerEnglish"
+            name="examConfiguration.alpha_type"
+            type="radio"
+            value="english"
+          />
+          <label
+            class="question-control__screen-type-label"
+            for="answerEnglish"
+          >
+            <img
+              alt="english select"
+              class="question-control__screen-type-img"
+              src="englishAlphabet.jpg"
+            />
+            <div
+              class="question-control__screen-type--selected
+                            d-none"
+            >
+              <svg
+                class="question__checked-icon"
+              >
+                checked.svg
+              </svg>
+            </div>
+          </label>
+        </div>
+        <div
+          class="question-control__screen-type"
+        >
+          <input
+            class="question-control__screen-type-input"
+            id="answerRoman"
+            name="examConfiguration.alpha_type"
+            type="radio"
+            value="roman"
+          />
+          <label
+            class="question-control__screen-type-label"
+            for="answerRoman"
+          >
+            <img
+              alt="roman"
+              class="question-control__screen-type-img"
+              src="romanAlpha.jpg"
+            />
+            <div
+              class="question-control__screen-type--selected
+                            d-none"
+            >
+              <svg
+                class="question__checked-icon"
+              >
+                checked.svg
+              </svg>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="add-test__configuration-field-cont"
+    >
+      <div
+        class="add-test__configuration-label-cont d-flex flex-column align-items-start"
+      >
+        <div
+          class="d-flex align-items-center w-100"
+        >
+          <label
+            class="add-test__config-label"
+          >
+            Add Question By Excel File
+          </label>
+          <a
+            class="add-test__config-download-button"
+            download=""
+            href="questions-modal.xlsx"
+          >
+            <svg
+              class="add-test__config-download-icon"
+            >
+              downladExcel.svg
+            </svg>
+          </a>
+        </div>
+        <div
+          class="d-flex w-100 mt-3"
+        >
+          <div
+            class="add-test__configuration-custom-input-wrapper"
+          >
+            <label
+              class="add-test__configuration-custom-input-label"
+              for="add-test__configuration-input"
+            >
+              Upload File
+            </label>
+            <input
+              accept=".xlsx,.xls"
+              class="add-test__configuration-input--file form-control"
+              id="add-test__configuration-input"
+              placeholder="please add Exam Time"
+              type="file"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

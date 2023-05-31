@@ -1,0 +1,90 @@
+.show-categories__cat{
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    overflow: hidden;
+    min-width: 350px;
+    min-height:220px;
+    height: 100%;
+    background-color:white;
+    border-radius: 12px;
+    box-shadow: 0 3px 30px #186AA51A ; 
+    transition: var(--transition);
+    margin-bottom: 30px;
+    padding: 20px 5px;
+}
+.show-categories__cat:hover{
+    background-color: var(--main-color);
+    color:#fff;
+}
+.show-categories__cat:hover .show-categories__exam-type{
+    background-color:white;
+    color:var(--text-color-dark)!important;
+    color:#fff;
+}
+.show-categories__cat-title{
+    font-family: 'PoppinsBold';
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.show-categories__cat-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:100%;
+    width:100%;
+}
+.show-categories__cat-date{
+    font-family: 'PoppinsSemiBold';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: var(--main-color);
+    transition: var(--transition);
+}
+.show-categories__cat:hover .show-categories__cat-date{
+    color:#fff!important;
+    /* color:#fff; */
+}
+.show-categories__img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.show-categories__img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.show-categories__exam-types{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.show-categories__exam-type{
+    padding: 9px 20px;
+    background-color: rgba(71, 86, 119, 1);
+    border-radius: 4px;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: var(--transition);
+    text-transform: uppercase;
+}
+.show-categories__cat:hover .show-categories__exam-type{
+    background-color: white;
+    color:var(--text-color-dark)!important;
+    color:#fff;
+}

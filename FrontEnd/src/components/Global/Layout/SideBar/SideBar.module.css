@@ -1,0 +1,99 @@
+
+.side-navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    width: 0;
+    transition: var(--transition);
+    overflow: hidden;
+    height: 0;
+    border-radius: 50%;
+    border-top-left-radius: 0;
+}
+.side-navbar--open{
+    height: 100%;
+    width: 100%;
+    border-radius: 0;width: 100%;
+}
+.side-navbar__logo{
+    margin-bottom: 20px;
+}
+.side-navbar__content{
+    width: 70%;
+    background-color: white;
+    height: 100%;
+    padding: 60px 0px;
+    overflow-y: auto;
+}
+.side-navbar__profile-cont{
+    padding: 0px 30px;
+    border-bottom: 1px solid #0000001F;
+}
+.side-navbar__overlayer{
+    width: 30%;
+    background-color: black;
+    height: 100%;
+    opacity: .8;
+}
+.side-navbar__profile-img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+    border: 1px solid var(--text-color-dark);
+    border-radius: 50%;
+    padding: 6px;
+    object-fit: contain;
+}
+.side-navbar__profile-name{
+    color: var(--text-color-dark);
+    font-family: 'PoppinsMedium';
+}
+.side-navbar__nav-item{
+    padding: 20px 40px;
+    transition:var(--transition)
+}
+.side-navbar__nav-item:hover .side-navbar__nav-link{
+    color: var(--main-color);
+}
+.side-navbar__nav-item.active{
+    background: transparent linear-gradient(91deg,#BB07E6 0%, #4807E6 100%) 0% 0%;
+}
+.side-navbar__nav-item.active .side-navbar__nav-link{
+    color: white;
+}
+.side-navbar__nav-list .side-navbar__nav-item:last-of-type{
+    border-bottom: 1px solid #0000001F;
+}
+.side-navbar__nav-link{
+    color:var(--text-color-dark);
+    transition: var(--transition);
+}
+.side-navbar__logOut-cont{
+    padding:30px;
+}
+.side-navbar__logOut{
+    background-color: transparent;
+    border: 0;
+    color: #CE2424;
+    margin: auto;
+    cursor: pointer;
+}
+.side-navbar__logOut-icon{
+    margin-right: 5px;
+}
+.side-navbar__content::-webkit-scrollbar{
+    width: 8px;
+}
+.side-navbar__content::-webkit-scrollbar-thumb{
+    background: transparent linear-gradient(0deg,#4807E6 0%, #A152FC 100%) 0% 0%;
+}
+@media(min-width:992px){
+    .side-navbar{
+        width:0!important;
+    }
+}
+/***************navbar*************************/

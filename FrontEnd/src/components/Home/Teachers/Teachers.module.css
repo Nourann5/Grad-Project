@@ -1,0 +1,76 @@
+
+#courses{
+    background-color:var(--main-background-color);
+    padding:70px 0;
+}
+.courses__heading{
+    font-size:40px;
+    font-family:'PlayFairBold';
+    text-align: center;
+    color:black;
+    margin-bottom:24px;
+    text-transform:uppercase;
+}
+.courses__desc{
+    font-size:18px;
+    text-align:center;
+    color:black;
+    width:80%;
+    margin: 0 auto 40px;
+}
+.courses__content-link{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 3px 30px #186aa51a;
+    height: 180px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    transition: var(--transition);
+    color: black;
+    display: flex;
+    margin: 0 auto 20px;
+    width: 210px;
+}
+.courses__content-link:hover{
+    background-color:var(--main-color);
+    color:white;
+}
+.courses__content-icon{
+    margin-bottom: 18px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition:var(--transition);
+    background-color:#F4F7FA;
+}
+.courses__content-title{
+    color:black;
+    font-size:20px;
+    font-family: "PoppinsBold";
+    transition: var(--transition);
+    text-transform: uppercase;
+}
+.courses__content-link:hover .courses__content-title{
+    color:white;
+}
+@media(max-width:768px){
+    #courses{
+        padding:40px 0
+    }
+    .courses__heading{
+        font-size:40px
+    }
+    .courses__desc{
+        font-size:19px
+    }
+}
+@media(max-width:426px){
+    .courses__content-icon{
+        width: 90px;
+        height: 90px;
+    }
+    .courses__content-link{
+        height: 200px;
+    }
+}

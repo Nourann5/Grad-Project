@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Registeration Form  Registeration Form 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+    <div>
+      <div
+        class="sign-up__form-head"
+      >
+        <button
+          class="sign-up__return-para"
+        >
+          <svg
+            class="sign-up__return-icon"
+          >
+            leftAngle.svg
+          </svg>
+          <span
+            class="sign-up__return-span"
+          >
+            Back 
+          </span>
+        </button>
+        <div
+          class="sign-up__logo-cont"
+        >
+          <div
+            class="d-none"
+          >
+            <svg
+              class="sign-up__logo "
+            >
+              studentIconSignUp.svg
+            </svg>
+            <p
+              class="sign-up__logo-role"
+            >
+              Sign Up as a 
+              <span>
+                 Student
+              </span>
+            </p>
+          </div>
+          <div
+            class="d-none "
+          >
+            <svg
+              class="sign-up__logo "
+            >
+              teacherSignUp.svg
+            </svg>
+            <p
+              class="sign-up__logo-role"
+            >
+              Sign Up as a 
+              <span>
+                 Teacher
+              </span>
+            </p>
+          </div>
+          <div
+            class="d-none "
+          >
+            <svg
+              class="sign-up__logo "
+            >
+              schoolSignUp.svg
+            </svg>
+            <p
+              class="sign-up__logo-role"
+            >
+              Sign Up as a 
+              <span>
+                 School
+              </span>
+            </p>
+          </div>
+          <div
+            class="d-none "
+          >
+            <svg
+              class="sign-up__logo "
+            >
+              centerSignUp.svg
+            </svg>
+            <p
+              class="sign-up__logo-role"
+            >
+              Sign Up as a 
+              <span>
+                 Center
+              </span>
+            </p>
+          </div>
+          <div
+            class="d-none "
+          >
+            <svg
+              class="sign-up__logo "
+            >
+              centerAcademySignUp.svg
+            </svg>
+            <p
+              class="sign-up__logo-role"
+            >
+              Sign Up as a 
+              <span>
+                 Academy Center
+              </span>
+            </p>
+          </div>
+          <div
+            class="d-none "
+          >
+            <svg
+              class="sign-up__logo "
+            >
+              collegeSignUp.svg
+            </svg>
+            <p
+              class="sign-up__logo-role"
+            >
+              Sign Up as a 
+              <span>
+                 Colleage
+              </span>
+            </p>
+          </div>
+          <div
+            class="d-none "
+          >
+            <svg
+              class="sign-up__logo "
+            >
+              universitySignUp.svg
+            </svg>
+            <p
+              class="sign-up__logo-role"
+            >
+              Sign Up as a 
+              <span>
+                 University
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sign-up__form-head"
+    >
+      <button
+        class="sign-up__return-para"
+      >
+        <svg
+          class="sign-up__return-icon"
+        >
+          leftAngle.svg
+        </svg>
+        <span
+          class="sign-up__return-span"
+        >
+          Back 
+        </span>
+      </button>
+      <div
+        class="sign-up__logo-cont"
+      >
+        <div
+          class="d-none"
+        >
+          <svg
+            class="sign-up__logo "
+          >
+            studentIconSignUp.svg
+          </svg>
+          <p
+            class="sign-up__logo-role"
+          >
+            Sign Up as a 
+            <span>
+               Student
+            </span>
+          </p>
+        </div>
+        <div
+          class="d-none "
+        >
+          <svg
+            class="sign-up__logo "
+          >
+            teacherSignUp.svg
+          </svg>
+          <p
+            class="sign-up__logo-role"
+          >
+            Sign Up as a 
+            <span>
+               Teacher
+            </span>
+          </p>
+        </div>
+        <div
+          class="d-none "
+        >
+          <svg
+            class="sign-up__logo "
+          >
+            schoolSignUp.svg
+          </svg>
+          <p
+            class="sign-up__logo-role"
+          >
+            Sign Up as a 
+            <span>
+               School
+            </span>
+          </p>
+        </div>
+        <div
+          class="d-none "
+        >
+          <svg
+            class="sign-up__logo "
+          >
+            centerSignUp.svg
+          </svg>
+          <p
+            class="sign-up__logo-role"
+          >
+            Sign Up as a 
+            <span>
+               Center
+            </span>
+          </p>
+        </div>
+        <div
+          class="d-none "
+        >
+          <svg
+            class="sign-up__logo "
+          >
+            centerAcademySignUp.svg
+          </svg>
+          <p
+            class="sign-up__logo-role"
+          >
+            Sign Up as a 
+            <span>
+               Academy Center
+            </span>
+          </p>
+        </div>
+        <div
+          class="d-none "
+        >
+          <svg
+            class="sign-up__logo "
+          >
+            collegeSignUp.svg
+          </svg>
+          <p
+            class="sign-up__logo-role"
+          >
+            Sign Up as a 
+            <span>
+               Colleage
+            </span>
+          </p>
+        </div>
+        <div
+          class="d-none "
+        >
+          <svg
+            class="sign-up__logo "
+          >
+            universitySignUp.svg
+          </svg>
+          <p
+            class="sign-up__logo-role"
+          >
+            Sign Up as a 
+            <span>
+               University
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

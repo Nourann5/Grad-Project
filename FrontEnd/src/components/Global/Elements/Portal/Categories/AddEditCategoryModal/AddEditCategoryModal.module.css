@@ -1,0 +1,91 @@
+.submit-modal__buttons-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.submit-modal__back-button{
+    width: 258px;
+    height: 48px;
+    margin-right: 25px;
+    border-radius: 4px;
+    background-color: #A1A1A1;
+    color: white;
+}
+.submit-modal__confirm-button{
+    width: 258px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    color: white;
+}
+.modal-title__main{
+    font-size: 24px;
+    color: #121212;
+    font-family: 'PoppinsSemiBold';
+    margin-bottom: 15px;
+}
+.modal-title__second{
+    font-size: 18px;
+    color: #121212;
+    margin-top: 20px;
+}
+.modal-body{
+    padding: 20px 25px 40px;
+}
+.modal__exit-icon{
+    width: 25px;
+    height: 25px;
+}
+.modal__exit-icon path{
+    fill:#A2AABA
+}
+.modal-header .close{
+    margin: 0;
+    background-color: transparent;
+}
+
+.modal-header{
+    display: flex;
+    align-items: center;
+    border-color: #e4e4e4;
+    padding: 15px 25px;
+}
+.modal__title{
+    font-size: 23px;
+    font-family: PoppinsBold;
+    color: var(--main-color);
+    margin: 0;
+}
+.modal__form-input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.modal__form-input-label{
+    color: var(--main-color);
+    font-family: 'PoppinsMedium';
+    margin-bottom: 8px;
+}
+.modal__form-input{
+    border: 1px solid #BFBFBF;
+    height: 60px;
+    border-radius: 4px;
+    padding: 20px;
+    outline: #BFBFBF;
+}
+.modal__form-input--error{
+    border-color:red
+}
+.modal__form-input--error::placeholder{
+    color: red;
+    font-weight: 0;
+    font-size:14px
+}
+.modal__form-input-required{
+    color: red;
+}
+
+.modal__form-input-error-message{
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}

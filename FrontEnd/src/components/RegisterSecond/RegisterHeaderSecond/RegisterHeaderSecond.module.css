@@ -1,0 +1,48 @@
+
+.sign-up__form-head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sign-up__return-para{
+    position: absolute;
+    color:var(--text-color-dark);
+    font-size:18px;
+    font-family:'PoppinsMedium';
+    transition:var(--transition);
+}
+.sign-up__return-para:hover{
+    color:var(--main-color);
+}
+.sign-up__return-icon{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.sign-up__logo-cont{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.sign-up__logo{
+    margin: auto;
+    display:none;
+    width: 70px;
+    height: 70px;
+}
+.sign-up__logo.active{
+    display:initial;
+}
+
+@media(max-width:426px){
+    .register__return-span{
+        display:none
+    }
+    .register__logo{
+        width:70px;
+        height:70px;
+    }
+}

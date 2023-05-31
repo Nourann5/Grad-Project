@@ -1,0 +1,109 @@
+
+#get-started{
+    background-color: var(--main-background-color);
+    padding:40px 0;
+}
+.get-started__img{
+    background: url('assets/imgs/started.png') no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-position: center;
+}
+.get-started__feature{
+    display:flex;
+}
+.get-started__icon {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFC850;
+    margin-right: 20px;
+}
+.get-started__heading{
+    color: black;
+    font-size: 35px;
+    font-family: 'PoppinsBold';
+    margin-bottom: 20px;
+}
+.get-started__heading-span{
+    color:#4807E6
+}
+.get-started__para{
+    font-size:18px;
+    font-family: 'PoppinsMedium';
+    margin-bottom: 40px;
+    color: black;
+    line-height: 35px;
+}
+.get-started__feature-heading{
+    font-family: 'PoppinsSemiBold';
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+}
+.get-started__feature-para{
+    font-family: 'PoppinsMedium';
+    color: black;
+}
+.get-started__feature{
+    margin-bottom: 20px;
+}
+.get-started__icon-svg{
+    --size:50px;
+    width: var(--size);
+    height: var(--size);
+}
+@media(max-width:992px){
+    .get-started__img{
+        height: 90%;
+    }
+}
+@media(max-width:768px){
+    .get-started__img{
+        height: 600px;
+        
+    }
+    .get-started__heading{
+        text-align: center;
+        margin-bottom: 15px
+    }
+    .get-started__para{
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:426px){
+    #get-started {
+        padding: 0;
+    }
+    .get-started__features{
+        width: 80%;
+        margin: auto;
+    }
+    .get-started__feature-heading{
+        font-size: 23px;
+        margin-bottom: 5px;
+    }
+    .get-started__img {
+        height:400px
+    }
+}
+@media(max-width:376px){
+    .get-started__features{
+        width: 100%;
+    }
+    .get-started__feature-para{
+        font-size:15px
+    }
+    .get-started__img {
+        height:300px
+    }
+}
+@media(max-width:376px){
+    .get-started__feature-para{
+        font-size:14px
+    }
+}

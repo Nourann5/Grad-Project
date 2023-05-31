@@ -1,0 +1,106 @@
+
+.faq{
+    background-color: white;
+    padding: 80px 0 100px;
+}
+.faq__heading-cont{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.faq__heading{
+    font-size:40px;
+    color: black;
+    font-family:'PlayFairBold';
+    text-align: center; 
+    margin: 0 auto 30px;
+}
+.faq__icon {
+    transform: translate(-150px, -60px);
+    position: absolute;
+}
+.faq__accordion-item{
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: none;
+    border: 2px solid var(--main-color)!important;
+    border-radius: 15px!important;
+}
+.faq__accordion-button{
+    background-color: transparent;
+    padding: 35px 45px;
+    box-shadow: none;
+
+}
+.faq__accordion-header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+    color: var(--text-color-dark);
+    font-family:'PoppinsSemiBold';
+}
+.faq__accordion-body{
+    padding: 0px 10px;
+    font-size: 15px;
+    color: var(--text-color-dark);
+    font-family: 'PoppinsRegular';
+    line-height: 24px;
+    margin-top: 10px;
+}
+.faq__accordion-icon{
+    position:absolute;
+    transition: var(--transition)
+}
+.faq__accordion-icon:last-of-type{
+    transform: rotate(0deg);
+}
+/* .faq__accordion-icon-cont.open .faq__accordion-icon--open{
+    transform: rotate(90deg);
+} */
+
+
+.accordion .card{
+    border: 1px solid var(--main-color)!important;
+    border-radius: 12px!important;
+    margin-bottom: 25px;
+    padding: 23px 40px;
+    box-shadow: 0px 3px 6px #4807E626;
+
+}
+.accordion .card-header{
+    background-color: transparent;
+    border: 0;
+    border-radius: 8px;
+    padding: 0;
+    border: 1px solid var(--main-color)!important;
+    border-radius: 12px!important;
+    margin-bottom: 25px;
+    padding: 23px 40px;
+    box-shadow: 0px 3px 6px #4807E626;
+}   
+.card-body{
+    padding: 0;
+}
+@media (max-width:1024px) {
+    .faq__icon {
+        display: none;
+    }
+}
+@media (max-width:769px) {
+   
+}
+@media (max-width:426px) {
+    .faq{
+        padding: 40px 0
+    }
+    .faq__heading{
+        font-size: 30px;
+    }
+    .accordion .card{
+        margin-bottom: 15px;
+        padding: 15px 25px
+    }
+    
+}

@@ -1,0 +1,104 @@
+
+.test__pagination{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 30px;
+    /* margin-bottom:30px; */
+    padding: 0 40px;
+}
+.test__pagintaion-control-button{
+    width:40px;
+    height:40px;
+    border:2px solid var(--main-color)!important;
+    color: var(--main-color);
+    transition: var(--transition);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+    background-color: white;
+}
+.test__prev-button{
+    margin-right: 8px;
+}
+.test__next-button{
+    margin-left: 8px;
+}
+.test__pagination-list{
+    display: flex;
+    background-color: white;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+.test__pagination-link{
+    position: relative;
+    color: var(--main-color)!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--main-color)!important;
+    background-color: white;
+    border-radius: 4px;
+    transition: var(--transition);
+    width: 32px;
+    height: 32px;
+    margin-right: 13px;
+    cursor: pointer;
+    font-family: 'PoppinsSemiBold';
+    overflow: hidden;
+}
+.test__pagination-link.answered{
+    border-color:green!important;
+    background-color:green!important;
+    color:white!important
+}
+.test__pagination-link.active{
+    background-color:var(--main-color)!important;
+    color:white!important
+}
+.test__pagination-link::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 0%;
+    border-bottom: 0;
+    border-right: 15px solid var(--main-color);
+    transform: translate(-4px,-10px) rotate(320deg);
+    transform-origin: top right;
+    transition:var(--transition);
+}
+.test__pagination-link.flagged-question::before{
+    height:100%;
+    transition:var(--transition);
+}
+
+.flagged-question.active::before ,.flagged-question.active:hover::before ,.flagged-question.answered::before{
+    border-right-color: white;
+}
+
+@media (max-width:426px){
+    .test__pagination{
+        padding: 0;
+        margin-top:10px
+    }
+    .test__pagination-list{
+        padding:    10px;
+    }
+    .test__pagintaion-control-button {
+        width: 35px;
+        height: 35px;
+    }
+    .test__pagination-link{
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    
+}

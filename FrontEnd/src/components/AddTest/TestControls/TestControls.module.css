@@ -1,0 +1,130 @@
+.test-controls__logo{
+    width: 150px;
+    margin-right: 20px;
+}
+.test__controls{
+    background-color:white;
+    border-bottom: 1px solid #00000012;
+    /* box-shadow: 0 2px 6px #00000012; */
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+}
+.test__controls__cont{
+    position: absolute;
+}
+.test__control-button{
+    margin-right: 15px;
+}
+.test__control-button-icon{
+    width:25px;
+}
+.test__control-button-icon path{
+    fill:var(--main-color)
+}
+.test__control-button--rotate{
+    transform:rotate(180deg);
+}
+.test__control-end-task{
+    background-color: var(--main-color);
+    color: white;
+    font-size: 13px;
+    width: 160px;
+    height: 40px;
+    transition:var(--transition);
+    font-family: 'PoppinsSemiBold';
+}
+.test__control-end-task:hover ,.test__control-end-task:focus{
+    background-color: var(--main-color);
+    color:white;
+    opacity: .8;
+}
+.test__timer-cont{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right:90px
+}
+.test__timer-cont svg{
+    margin-right: 10px;
+}
+.test__timer-cont span{
+    font-family: 'PoppinsBold';
+    color: var(--main-color);
+    width: 20px;
+}
+.add-test__add-button{
+    background-color: transparent;
+    border: 3px solid var(--main-color)!important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-test__delete-button{
+    background-color: transparent;
+    border: 3px solid red!important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.add-test__add-button-icon{
+    width: 20px;
+    height: 20px;
+    color: var(--main-color);
+}
+.add-test__delete-button-icon{
+    width: 20px;
+    height: 20px;
+    color: red;
+}
+.add-test__control-wrapper{
+    position: absolute;
+    right:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:992px){
+    .test__controls{
+        padding:5px
+    }
+    .add-test__control-wrapper{
+        right:10px;
+    }
+    .test__control-button{
+        margin:0
+    }
+    .test__control-button--hidden{
+        display:none
+    }
+    /* .test__control-end-task{
+        order: 1;
+        margin-bottom: 10px
+    }
+    .test__controls__cont{
+        position: initial;
+        order: 3;
+    }
+    .test__timer-cont{
+        position: initial;
+        order: 2;
+    } */
+    
+}
+@media (max-width:769px){
+    .add-test__delete-button{
+        margin-right: 5px;
+    }
+   
+}

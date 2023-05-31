@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Home Words From Our Students Heading exists 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        id="comments"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="comments__content-cont comments__content-cont--responsive d-none"
+            >
+              <h2
+                class="comments__content-heading"
+              >
+                WORDS FROM OUR STUDENTS
+              </h2>
+              <svg
+                class="comments__content-heading-icon"
+              >
+                comments.svg
+              </svg>
+            </div>
+            <div
+              class="col-lg-5 col-12"
+            >
+              <div
+                class="comments__img-cont d-flex"
+              >
+                <img
+                  alt="comments"
+                  class="comments__img m-auto"
+                  src="comments.png"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-7 col-12"
+            >
+              <div
+                class="comments__content"
+              >
+                <div
+                  class="comments__content-cont"
+                >
+                  <h2
+                    class="comments__content-heading"
+                  >
+                    WORDS
+                    <br />
+                     FROM OUR Students
+                  </h2>
+                  <svg
+                    class="comments__content-heading-icon"
+                  >
+                    comments.svg
+                  </svg>
+                </div>
+                <div
+                  class="comments__comments"
+                >
+                  <div
+                    class="carousel carousel slide"
+                  >
+                    <div
+                      class="carousel-inner"
+                    >
+                      <div
+                        class="carousel-item active carousel-item"
+                      >
+                        <div
+                          class="carousel-caption carousel-caption"
+                        >
+                          <div
+                            class="comments__comments-top-quote"
+                          >
+                            <svg
+                              class="comments__comments-quote comments__comments-top-quote-icon"
+                            >
+                              quoteTop.svg
+                            </svg>
+                          </div>
+                          <p
+                            class="comments__para"
+                          >
+                            Lorem ipsum dolor sit amet, consetetur sadipscing Lorem ipsum dolor sit amet, consetetur sadipscing Lorem ipsum dolor sit amet consetetur sadipscing Lorem ipsum
+                          </p>
+                          <div
+                            class="comments__comments-foot"
+                          >
+                            <svg
+                              class="comments__comments-quote comments__comments-down-quote-icon"
+                            >
+                              quoteDown.svg
+                            </svg>
+                            <p
+                              class="comments__owner"
+                            >
+                              Ahmed H. Ibrahim
+                            </p>
+                            <div
+                              class="comments__comments-nav"
+                            >
+                              <button
+                                class="carousel-control-prev"
+                              >
+                                <svg
+                                  class="carousal__nav-icon"
+                                >
+                                  leftAnglePag.svg
+                                </svg>
+                              </button>
+                              <button
+                                class="carousel-control-next"
+                              >
+                                <svg
+                                  class="carousal__nav-icon"
+                                >
+                                  rightAnglePag.svg
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="carousel-item carousel-item"
+                      >
+                        <div
+                          class="carousel-caption carousel-caption"
+                        >
+                          <div
+                            class="comments__comments-top-quote"
+                          >
+                            <svg
+                              class="comments__comments-quote comments__comments-top-quote-icon"
+                            >
+                              quoteTop.svg
+                            </svg>
+                          </div>
+                          <p
+                            class="comments__para"
+                          >
+                            Lorem ipsum dolor sit amet, consetetur sadipscing Lorem ipsum dolor sit amet, consetetur sadipscing Lorem ipsum dolor sit amet consetetur sadipscing Lorem ipsum
+                          </p>
+                          <div
+                            class="comments__comments-foot"
+                          >
+                            <svg
+                              class="comments__comments-quote  comments__comments-down-quote-icon"
+                            >
+                              quoteDown.svg
+                            </svg>
+                            <p
+                              class="comments__owner"
+                            >
+                              Ahmed H. Ibrahim
+                            </p>
+                            <div
+                              class="comments__comments-nav"
+                            >
+                              <button
+                                class="carousel-control-prev"
+                              >
+                                <svg
+                                  class="carousal__nav-icon"
+                                >
+                                  leftAnglePag.svg
+                                </svg>
+                              </button>
+                              <button
+                                class="carousel-control-next"
+                              >
+                                <svg
+                                  class="carousal__nav-icon"
+                                >
+                                  rightAnglePag.svg
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="carousel-control-prev-icon"
+                      />
+                      <span
+                        class="visually-hidden"
+                      >
+                        Previous
+                      </span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="carousel-control-next-icon"
+                      />
+                      <span
+                        class="visually-hidden"
+                      >
+                        Next
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      id="comments"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="comments__content-cont comments__content-cont--responsive d-none"
+          >
+            <h2
+              class="comments__content-heading"
+            >
+              WORDS FROM OUR STUDENTS
+            </h2>
+            <svg
+              class="comments__content-heading-icon"
+            >
+              comments.svg
+            </svg>
+          </div>
+          <div
+            class="col-lg-5 col-12"
+          >
+            <div
+              class="comments__img-cont d-flex"
+            >
+              <img
+                alt="comments"
+                class="comments__img m-auto"
+                src="comments.png"
+              />
+            </div>
+          </div>
+          <div
+            class="col-lg-7 col-12"
+          >
+            <div
+              class="comments__content"
+            >
+              <div
+                class="comments__content-cont"
+              >
+                <h2
+                  class="comments__content-heading"
+                >
+                  WORDS
+                  <br />
+                   FROM OUR Students
+                </h2>
+                <svg
+                  class="comments__content-heading-icon"
+                >
+                  comments.svg
+                </svg>
+              </div>
+              <div
+                class="comments__comments"
+              >
+                <div
+                  class="carousel carousel slide"
+                >
+                  <div
+                    class="carousel-inner"
+                  >
+                    <div
+                      class="carousel-item active carousel-item"
+                    >
+                      <div
+                        class="carousel-caption carousel-caption"
+                      >
+                        <div
+                          class="comments__comments-top-quote"
+                        >
+                          <svg
+                            class="comments__comments-quote comments__comments-top-quote-icon"
+                          >
+                            quoteTop.svg
+                          </svg>
+                        </div>
+                        <p
+                          class="comments__para"
+                        >
+                          Lorem ipsum dolor sit amet, consetetur sadipscing Lorem ipsum dolor sit amet, consetetur sadipscing Lorem ipsum dolor sit amet consetetur sadipscing Lorem ipsum
+                        </p>
+                        <div
+                          class="comments__comments-foot"
+                        >
+                          <svg
+                            class="comments__comments-quote comments__comments-down-quote-icon"
+                          >
+                            quoteDown.svg
+                          </svg>
+                          <p
+                            class="comments__owner"
+                          >
+                            Ahmed H. Ibrahim
+                          </p>
+                          <div
+                            class="comments__comments-nav"
+                          >
+                            <button
+                              class="carousel-control-prev"
+                            >
+                              <svg
+                                class="carousal__nav-icon"
+                              >
+                                leftAnglePag.svg
+                              </svg>
+                            </button>
+                            <button
+                              class="carousel-control-next"
+                            >
+                              <svg
+                                class="carousal__nav-icon"
+                              >
+                                rightAnglePag.svg
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="carousel-item carousel-item"
+                    >
+                      <div
+                        class="carousel-caption carousel-caption"
+                      >
+                        <div
+                          class="comments__comments-top-quote"
+                        >
+                          <svg
+                            class="comments__comments-quote comments__comments-top-quote-icon"
+                          >
+                            quoteTop.svg
+                          </svg>
+                        </div>
+                        <p
+                          class="comments__para"
+                        >
+                          Lorem ipsum dolor sit amet, consetetur sadipscing Lorem ipsum dolor sit amet, consetetur sadipscing Lorem ipsum dolor sit amet consetetur sadipscing Lorem ipsum
+                        </p>
+                        <div
+                          class="comments__comments-foot"
+                        >
+                          <svg
+                            class="comments__comments-quote  comments__comments-down-quote-icon"
+                          >
+                            quoteDown.svg
+                          </svg>
+                          <p
+                            class="comments__owner"
+                          >
+                            Ahmed H. Ibrahim
+                          </p>
+                          <div
+                            class="comments__comments-nav"
+                          >
+                            <button
+                              class="carousel-control-prev"
+                            >
+                              <svg
+                                class="carousal__nav-icon"
+                              >
+                                leftAnglePag.svg
+                              </svg>
+                            </button>
+                            <button
+                              class="carousel-control-next"
+                            >
+                              <svg
+                                class="carousal__nav-icon"
+                              >
+                                rightAnglePag.svg
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="carousel-control-prev-icon"
+                    />
+                    <span
+                      class="visually-hidden"
+                    >
+                      Previous
+                    </span>
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="carousel-control-next-icon"
+                    />
+                    <span
+                      class="visually-hidden"
+                    >
+                      Next
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

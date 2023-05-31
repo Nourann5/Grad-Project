@@ -1,0 +1,27 @@
+.show-categories__filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 50px;
+}
+.show-categories__filter-span{
+    font-family: 'PoppinsSemiBold';
+    color: var(--text-color-dark)80;
+    margin-right: 50px;
+}
+.show-categories__filter-span svg{
+    margin-left: 20px;
+}
+
+.show-categories__filter-button{
+    margin-right: 24px;
+    font-family: 'PoppinsSemiBold';
+    padding: 10px 35px;
+    transition: var(--transition);
+}
+.show-categories__filter-button.active{
+    color: var(--main-color);
+    background-color: rgba(72, 7, 230, 0.05);
+    border-radius: 8px;
+    transition: var(--transition);
+}

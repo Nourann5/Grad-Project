@@ -1,0 +1,113 @@
+.portal__top-navbar{
+    position:fixed;
+    display: flex;
+    align-items: center;
+    top:0;
+    width:100%;
+    background-color: #FAFBFC;
+    padding:2px 0;
+    box-shadow: 0 0.46875rem 2.1875rem rgb(4 9 20 / 3%), 0 0.9375rem 1.40625rem rgb(4 9 20 / 3%), 0 0.25rem 0.53125rem rgb(4 9 20 / 5%), 0 0.125rem 0.1875rem rgb(4 9 20 / 3%);
+    z-index: 100;
+}
+.portal__top-navbar__logo{
+    height: 40px;
+    width: fit-content;
+    transition: var(--transition)
+}
+.portal__top-navbar__logo--mini{
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.portal__top-navbar--closed .portal__top-navbar__logo--mini{
+    height: 40px;
+    width: fit-content;
+    opacity: 1;
+    animation:animateLogoIcon .3s linear
+}
+.portal__top-navbar--closed .portal__top-navbar__logo--full{
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.portal__top-navbar-logo-menu-wrapper{
+    display:flex;
+    width: 310px;
+    height: 100%;
+    padding-left:20px;
+    transition: var(--transition);
+}
+.portal__top-navbar--closed .portal__top-navbar-logo-menu-wrapper{
+    padding-left: 0;
+    width: 130px;
+}
+.portal__top-navbar--closed .portal__top-navbar__logo-button{
+    width: 100px;
+}
+.portal__top-navbar--closed .portal__top-navbar__menu-button{
+    /* margin-left: 0; */
+}
+
+.portal__top-navbar-rest-icons-wrapper{
+    flex-grow: 1;
+    padding-right: 20px;
+    display: flex;
+}
+.portal__top-navbar__menu-icon{
+    height: 30px;
+    color:var(--main-color);
+    transform:rotate(180deg);
+}
+.portal__top-navbar__logo-button{
+    background-color:transparent;
+    transition: var(--transition)
+}
+button{
+    background-color:transparent;
+}
+.portal__top-navbar__menu-button{
+    background-color:transparent;
+    margin-left: auto;
+    transition: var(--transition)
+}
+.portal__top-navbar__logout-icon{
+    width: 25px;
+    transform:rotate(180deg);
+    height: 25px;
+}
+.portal__top-navbar__logout-icon path{
+    fill:var(--main-color)
+}
+
+.portal__top-navbar-profile-dropdown-button{
+    background-color:transparent!important;
+    box-shadow:none!important;
+}
+.portal__top-navbar-profile-dropdown-button::after{
+    border-top: 0.3em solid black;
+}
+.portal__top-navbar-profile-dropdown-img{
+    width: 30px;
+}
+.portal__top-navbar-profile-dropdown-menu{
+    animation:animateDropDownMenu .2s linear
+}
+
+@keyframes animateDropDownMenu {
+    0%{
+        display: none;
+        transform: translate3d(0px, 86.8px, 0px);
+    }
+    100%{
+        display: flex;
+        transform: translate3d(0px, 56.8px, 0px);
+    }
+}
+@keyframes animateLogoIcon {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{        
+        transform: rotate(360deg)
+    }
+}

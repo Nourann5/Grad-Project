@@ -1,0 +1,30 @@
+#add-test .accordion-button{
+    padding: 20px 40px!important;
+    border-top: 1px solid #00000012!important;
+    font-size: 18px;
+    font-family: 'PoppinsBold';
+    color: var(--text-color-dark)!important;
+    flex-direction: row;
+
+}
+#add-test .accordion-button::after{
+    color:var(--text-color-dark)!important;
+}
+#add-test .accordion-button:not(.collapsed)::after{
+    background-image: var(--bs-accordion-btn-icon);
+}
+/* #add-test .accordion-button:not(.collapsed)::before{
+    background-image: none;
+} */
+/* .accordion-button{
+    background-color: transparent!important;
+    padding: 35px 45px;
+    box-shadow: none!important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.accordion-button.collapsed .faq__accordion-icon--open{
+    transform: rotate(90deg)!important ;
+} */

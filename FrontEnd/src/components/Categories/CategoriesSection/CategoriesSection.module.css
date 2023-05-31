@@ -1,0 +1,9 @@
+.show-categories{
+    min-height: calc(100vh - 174px);
+}
+
+.show-categories__cats{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}

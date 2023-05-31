@@ -1,0 +1,31 @@
+.overview__welcome-user{
+    padding:20px;
+    width:100%; 
+    background: linear-gradient(97deg, var(--main-color) 0%, #9100FF 100%);
+    margin-bottom:30px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.overview__welcome-user-type-wrapper{
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.overview__welcome-user-type-icon{
+
+}
+.overview__welcome-user-info{
+
+}
+.overview__welcome-user-info-title{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+.overview__welcome-user-info-welcome{
+    color: rgb(237, 235, 235);
+    font-size: 16px;
+    margin-bottom: 0;
+}

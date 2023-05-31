@@ -1,0 +1,29 @@
+.table-cont{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0px 20px 0px rgb(0 0 0 / 30%);
+    margin-bottom: 30px;
+}
+.table__title{
+    font-size: 23px;
+    font-family: PoppinsBold;
+    margin-bottom: 0;
+    color: var(--main-color);
+}
+.table__header-wrapper{
+    display: flex;
+    margin-bottom: 25px;
+}
+.table__add-button{
+    margin-left: auto;
+    font-size: 14px;
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+}
+.table__add-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+}

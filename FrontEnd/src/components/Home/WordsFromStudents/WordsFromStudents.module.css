@@ -1,0 +1,183 @@
+
+#comments{
+    padding:80px 0;
+    background-color:var(--main-background-color)
+}
+#comments .carousel{
+    min-height: 250px;
+    transform: translate(-170px, 0px);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.comments__content-cont--responsive{
+    display:none
+}
+#comments .carousel-inner{
+    height:100%;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 10px 10px 30px #4807E61A;
+}
+#comments .carousel-item{
+    background: white;
+    height: 100%;
+    padding: 30px;
+    border-radius: 12px;
+}
+#comments .carousel-caption{
+    position: initial;
+    color:var(--text-color-dark);
+    padding:0;
+}
+.comments__comments-quote{
+    width:40px;
+    height: 40px;
+}
+.comments__comments-top-quote{
+    text-align:right;
+    margin-bottom:5px;
+}
+.comments__comments-down-quote-icon{
+    margin-right: 20px;
+}
+#comments .carousel-control-next, #comments .carousel-control-prev{
+    --size: 30px;
+    position: initial;
+    width: var(--size);
+    height: var(--size);
+    border: 2px solid var(--main-color)!important;
+    border-radius: 50%;
+    background-color: white;
+    color: var(--main-color);
+    cursor: pointer;
+    opacity: 1;
+}
+#comments .carousel-control-next{
+    left: 90%;
+}
+#comments .carousel-control-prev{
+    left: 80%;
+    margin-right: 10px;
+}
+.comments__para{
+    font-family: 'PoppinsRegular';
+    line-height: 30px;
+    color: var(--text-color-dark);
+    border-bottom: 1px solid #475677;
+    padding-bottom: 30px;
+    width: 95%;
+    margin: auto;
+    text-align: left;
+}
+.comments__comments-foot{
+    display: flex;
+    align-items:center;
+    margin-top: 30px;
+}
+.comments__owner{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'PoppinsSemiBold';
+    color:var(--text-color-dark);
+}
+.comments__comments-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.comments__content-heading{
+    color: var(--text-color-dark);
+    font-size: 35px;
+    font-family: 'PlayFairBold';
+}
+.comments__content-cont{
+    display: flex;
+    align-items: center;
+}
+.comments__content-cont--responsive{
+    display: none
+}
+.comments__content-heading-icon{
+    margin-left: auto;
+}
+.comments__img{
+    width: -webkit-fill-available;
+}
+.comments__content-heading-icon{
+    width: 150px;
+    height: 150px;
+}
+@media (max-width:1024px) {
+    .comments__content-heading-icon{
+        width: 120px;
+        height: 120px;
+    }
+    .comments__content-heading{
+        font-size:30px
+    }
+}
+@media (max-width:992px) {
+    .comments__content-heading{
+        font-size:30px
+    }
+    .comments__img{
+        width: 700px;
+        height: 400px;
+    }
+    #comments .carousel{
+        transform: translate(0px, -130px);
+    }
+    #comments .carousel-inner{
+        width: 80%; 
+        margin: auto;
+    }
+
+    .comments__content-cont{
+        display: none;
+    }
+    .comments__content-cont--responsive{
+        display: flex;
+        width: 100%;
+    }
+    #comments{
+        padding:0;
+    }
+}
+@media (max-width:426px) {
+
+    .comments__content-cont--responsive .comments__content-heading{
+        font-size:25px
+    }
+    .comments__img{
+        width: 400px;
+        height: 300px;
+    }
+    #comments{
+        padding:0 10px
+    }
+    #comments .carousel-inner{
+        width:90%;
+    }
+    #comments .carousel-item{
+        padding:15px
+    }
+    .comments__para{
+        padding-bottom: 15px;
+    }
+    .comments__comments-foot{
+        margin-top: 15px;
+    }
+    #comments .carousel-control-prev{
+        margin-right: 5px;
+    }
+}
+@media (max-width:376px) {
+    .comments__img {
+        width: 300px;
+    }
+}
+@media (max-width:321px) {
+    .comments__img {
+        width: 250px;
+    }
+}

@@ -1,0 +1,46 @@
+.submit-modal__buttons-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.submit-modal__back-button{
+    width: 258px;
+    height: 48px;
+    margin-right: 25px;
+    border-radius: 4px;
+    background-color: #A1A1A1;
+    color: white;
+}
+.submit-modal__confirm-button{
+    width: 258px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    color: white;
+}
+.modal-title__main{
+    font-size: 24px;
+    color: #121212;
+    font-family: 'PoppinsSemiBold';
+    margin-bottom: 15px;
+}
+.modal-title__second{
+    font-size: 18px;
+    color: #121212;
+    margin-bottom: 50px;
+}
+.modal-body{
+    padding: 20px 15px 60px;
+    text-align: center;
+}
+.modal__exit-icon{
+    width: 30px;
+    height: 30px;
+}
+.modal__exit-icon path{
+    fill:#A2AABA
+}
+.modal-header .close{
+    margin: 0;
+    background-color: transparent;
+}

@@ -1,0 +1,126 @@
+:root{
+  --main-color:#4807E6;
+  --transition:all .3s linear;
+  --main-background-color:#F4F7FA;
+  --text-color-dark:#121212;
+
+/*   
+  --textColorDark:#121212;
+  --textColorLight:#ffffff;
+  --background-light-color:#ffffff;
+  --background-light-color:#121212;
+  --backGroundSecondColor:#F4F7FA; */
+}
+
+@font-face {
+  font-family: playfair;
+  src: url(assets/fonts/playfair/PlayfairDisplayBlack-RpvVA.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(assets/fonts/popins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(assets/fonts/popins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(assets/fonts/popins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: PoppinsSemiBoldItalic;
+  src: url(assets/fonts/popins/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(assets/fonts/popins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsBoldItalic;
+  src: url(assets/fonts/popins/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PlayFairBold;
+  src: url(assets/fonts/playfair/PlayfairDisplayBold-nRv8g.ttf);
+}
+htmL{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+  position: relative;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color:#F4F7FA;
+  font-family:PoppinsMedium;
+}
+button{
+  border: 0 !important;;
+  outline: 0 !important;;
+}
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration:none;
+}
+p{
+  margin: 0;
+}
+::-webkit-scrollbar{
+  width: 14px;
+}
+::-webkit-scrollbar-track{
+  background: #dde1e5; 
+  overflow:hidden
+}
+::-webkit-scrollbar-thumb{
+  background: transparent linear-gradient(91deg,#4807E6 0%, #A152FC 100%) 0% 0%;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: var(--main-color); 
+}
+.authentication{
+  min-height: 100vh;
+  background: #F4F7FA url('assets/icons/invoLogoBG.svg') no-repeat bottom right;
+  padding: 20px;
+}
+.form-control ,.form-control:focus ,.form-control:focus-visible ,.form-select:focus{
+  box-shadow: none;
+}
+.form-select:focus{
+  border-color: black;
+}
+.not-allowed{
+  cursor:not-allowed!important;
+  pointer-events: initial!important; 
+}
+
+.modal__form-input-error-message{
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.modal__form-input--error{
+  border-color:red!important
+}
+.modal__form-input--error::placeholder{
+  color: red;
+  font-weight: 0;
+  font-size:14px
+}
+.modal__form-check-error-message{
+  color: red;
+}
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+      max-width: 1120px;
+  }
+}
+.app{
+  overflow-x: hidden;
+}

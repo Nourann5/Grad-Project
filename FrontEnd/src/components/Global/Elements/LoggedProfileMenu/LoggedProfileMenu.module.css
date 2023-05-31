@@ -1,0 +1,89 @@
+.portal__top-navbar-profile-dropdown-button{
+    background-color:transparent!important;
+    box-shadow:none!important;
+}
+.portal__top-navbar-profile-dropdown-button::after{
+    border-top: 0.3em solid black;
+}
+.portal__top-navbar-profile-dropdown-img{
+    width: 30px;
+}
+.portal__top-navbar-profile-dropdown-menu{
+    animation:animateDropDownMenu .1s linear;
+}
+.navbar__account-icon{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+}
+@keyframes animateDropDownMenu {
+    0%{
+        display: none;
+        transform: translate3d(0px, 80px, 0px);
+    }
+    100%{
+        display: flex;
+        transform: translate3d(px, 10px, 0px);
+    }
+}
+
+.portal__top-navbar-profile-dropdown .dropdown-item{
+    font-size:14px;
+    color: var(--text-color-dark);
+    font-family: 'PoppinsSemiBold';
+    transition: var(--transition);
+    padding: 12px 40px 12px 15px;
+}
+.portal__top-navbar-profile-dropdown__account-icon{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+}
+.portal__top-navbar-profile-dropdown__account-cont .dropdown-toggle::after{
+    color: var(--main-color);
+}
+.portal__top-navbar-profile-dropdown .dropdown-item.active,.portal__top-navbar-profile-dropdown .dropdown-item:active ,.portal__top-navbar-profile-dropdown .dropdown-item:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+.portal__top-navbar-profile-dropdown .dropdown-item:active{
+    transition: var(--transition);
+}
+.portal__top-navbar-profile-dropdown .dropdown-item svg path{
+    transition:var(--transition)
+}
+.portal__top-navbar-profile-dropdown .dropdown-item.active svg path,.portal__top-navbar-profile-dropdown .dropdown-item:active svg path ,.portal__top-navbar-profile-dropdown .dropdown-item:hover svg path{
+    fill:white;
+}
+.portal__top-navbar-profile-dropdown .dropdown-menu{
+    display: block;
+    transform: translate(180px);
+    transition: var(--transitionEffect);
+    /* opacity: 0 !important; */
+    padding: 0;
+    margin: 0;
+    /* z-index: -1; */
+}
+.portal__top-navbar-profile-dropdown .dropdown-menu.show{
+    transform:translate(-50px,0);
+    opacity: 1!important;
+    z-index: 100;
+}
+@media (max-width:992px){
+    .portal__top-navbar-profile-dropdown__register-btn{
+        max-width: 100%;
+        width:100%
+    }
+    .portal__top-navbar-profile-dropdown__register-btn{
+        max-width: 100%;
+        width:100%
+    }
+    .portal__top-navbar-profile-dropdown__search-form.active{
+        top: 65%;
+        width: 90%;
+        right: 0;
+    }
+    .nav-item{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,14 @@
+.show-exams{
+    min-height: calc(100vh - 174px);
+}
+
+.show-exams__cats{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.element-loading{
+    height: 200px;
+    width: 200px;
+    margin: 50px auto 0;
+}

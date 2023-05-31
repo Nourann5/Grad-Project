@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182.67" height="168.425" viewBox="0 0 182.67 168.425">
+  <defs>
+    <filter id="Path_3204" x="42.058" y="21.617" width="140.612" height="146.808" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#4807e6" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_3205" x="0" y="0" width="147.053" height="147.053" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur-2"/>
+      <feFlood flood-color="#4807e6" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Search_results_for_Faq_-_Flaticon-2" data-name="Search results for Faq - Flaticon-2" transform="translate(27.5 -6.37)">
+    <g id="Group_10083" data-name="Group 10083" transform="translate(0 33.87)">
+      <g transform="matrix(1, 0, 0, 1, -27.5, -27.5)" filter="url(#Path_3204)">
+        <path id="Path_3204-2" data-name="Path 3204" d="M262.894,201.857l-2.608-9.094a3.156,3.156,0,0,1,.391-2.114,36.032,36.032,0,0,0-26.9-53.983,42.138,42.138,0,0,1,2.526,14.409c0,.887-.031,1.766-.085,2.64h11.8a3.213,3.213,0,0,1,3.24,3,3.154,3.154,0,0,1-3.151,3.307H235.345a41.994,41.994,0,0,1-3.17,9.27h15.842a3.213,3.213,0,0,1,3.24,3,3.154,3.154,0,0,1-3.151,3.307H228.453a42.7,42.7,0,0,1-9.021,9.27h28.585a3.213,3.213,0,0,1,3.24,3,3.154,3.154,0,0,1-3.151,3.307H211.077a3.135,3.135,0,0,1-1.863-.613A41.973,41.973,0,0,1,200,192.979a36.014,36.014,0,0,0,47.787,10.563,3.152,3.152,0,0,1,2.114-.391l9.094,2.608a3.155,3.155,0,0,0,3.9-3.9Z" transform="translate(-130.44 -87.55)" fill="#4807e6"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -27.5, -27.5)" filter="url(#Path_3205)">
+        <path id="Path_3205-2" data-name="Path 3205" d="M36.026,105.923A36.016,36.016,0,1,0,4.932,88.1a3.154,3.154,0,0,1,.391,2.114L2.714,99.307a3.154,3.154,0,0,0,3.9,3.9l9.094-2.608a3.156,3.156,0,0,1,2.114.391A35.993,35.993,0,0,0,36.026,105.923Zm0-12.81a3.154,3.154,0,1,1,3.154-3.154A3.209,3.209,0,0,1,36.026,93.112ZM23.948,58.758a12.078,12.078,0,1,1,15.233,11.66v7.715a3.154,3.154,0,1,1-6.309,0V67.682a3.154,3.154,0,0,1,3.154-3.154,5.769,5.769,0,1,0-5.769-5.769,3.154,3.154,0,0,1-6.309,0Z" transform="translate(27.5 -6.37)" fill="#4807e6"/>
+      </g>
+    </g>
+  </g>
+</svg>

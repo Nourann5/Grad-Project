@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Home FAQS Heading exists 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="faq faq"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="faq__heading-cont"
+          >
+            <svg
+              class="faq__icon"
+            >
+              faqIcon.svg
+            </svg>
+            <h2
+              class="faq__heading"
+            >
+              FREQUENTLY ASKED QUESTIONS
+            </h2>
+          </div>
+          <div
+            class="accordion"
+          >
+            <div
+              class="faq__accordion-item accordion-item"
+            >
+              <h2
+                class="faq__accordion-header accordion-header"
+              >
+                <button
+                  aria-expanded="false"
+                  class="accordion-button collapsed"
+                  type="button"
+                >
+                  <div
+                    class="faq__accordion-header-content"
+                  >
+                    Lorem ipsum dolor sit amet consetetur sadipscing ?
+                    <span
+                      class="faq__accordion-icon-cont"
+                    >
+                      <svg
+                        class="faq__accordion-icon"
+                      >
+                        minus.svg
+                      </svg>
+                      <svg
+                        class="faq__accordion-icon faq__accordion-icon--open"
+                      >
+                        minus.svg
+                      </svg>
+                    </span>
+                  </div>
+                  <div
+                    class="accordion-collapse collapse"
+                  >
+                    <div
+                      class="faq__accordion-body accordion-body"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </button>
+              </h2>
+            </div>
+            <div
+              class="faq__accordion-item accordion-item"
+            >
+              <h2
+                class="faq__accordion-header accordion-header"
+              >
+                <button
+                  aria-expanded="false"
+                  class="accordion-button collapsed"
+                  type="button"
+                >
+                  <div
+                    class="faq__accordion-header-content"
+                  >
+                    Lorem ipsum dolor sit amet consetetur sadipscing ?
+                    <span
+                      class="faq__accordion-icon-cont"
+                    >
+                      <svg
+                        class="faq__accordion-icon"
+                      >
+                        minus.svg
+                      </svg>
+                      <svg
+                        class="faq__accordion-icon faq__accordion-icon--open"
+                      >
+                        minus.svg
+                      </svg>
+                    </span>
+                  </div>
+                  <div
+                    class="accordion-collapse collapse"
+                  >
+                    <div
+                      class="faq__accordion-body accordion-body"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </button>
+              </h2>
+            </div>
+            <div
+              class="faq__accordion-item accordion-item"
+            >
+              <h2
+                class="faq__accordion-header accordion-header"
+              >
+                <button
+                  aria-expanded="false"
+                  class="accordion-button collapsed"
+                  type="button"
+                >
+                  <div
+                    class="faq__accordion-header-content"
+                  >
+                    Lorem ipsum dolor sit amet consetetur sadipscing ?
+                    <span
+                      class="faq__accordion-icon-cont"
+                    >
+                      <svg
+                        class="faq__accordion-icon"
+                      >
+                        minus.svg
+                      </svg>
+                      <svg
+                        class="faq__accordion-icon faq__accordion-icon--open"
+                      >
+                        minus.svg
+                      </svg>
+                    </span>
+                  </div>
+                  <div
+                    class="accordion-collapse collapse"
+                  >
+                    <div
+                      class="faq__accordion-body accordion-body"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                  </div>
+                </button>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="faq faq"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="faq__heading-cont"
+        >
+          <svg
+            class="faq__icon"
+          >
+            faqIcon.svg
+          </svg>
+          <h2
+            class="faq__heading"
+          >
+            FREQUENTLY ASKED QUESTIONS
+          </h2>
+        </div>
+        <div
+          class="accordion"
+        >
+          <div
+            class="faq__accordion-item accordion-item"
+          >
+            <h2
+              class="faq__accordion-header accordion-header"
+            >
+              <button
+                aria-expanded="false"
+                class="accordion-button collapsed"
+                type="button"
+              >
+                <div
+                  class="faq__accordion-header-content"
+                >
+                  Lorem ipsum dolor sit amet consetetur sadipscing ?
+                  <span
+                    class="faq__accordion-icon-cont"
+                  >
+                    <svg
+                      class="faq__accordion-icon"
+                    >
+                      minus.svg
+                    </svg>
+                    <svg
+                      class="faq__accordion-icon faq__accordion-icon--open"
+                    >
+                      minus.svg
+                    </svg>
+                  </span>
+                </div>
+                <div
+                  class="accordion-collapse collapse"
+                >
+                  <div
+                    class="faq__accordion-body accordion-body"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+                </div>
+              </button>
+            </h2>
+          </div>
+          <div
+            class="faq__accordion-item accordion-item"
+          >
+            <h2
+              class="faq__accordion-header accordion-header"
+            >
+              <button
+                aria-expanded="false"
+                class="accordion-button collapsed"
+                type="button"
+              >
+                <div
+                  class="faq__accordion-header-content"
+                >
+                  Lorem ipsum dolor sit amet consetetur sadipscing ?
+                  <span
+                    class="faq__accordion-icon-cont"
+                  >
+                    <svg
+                      class="faq__accordion-icon"
+                    >
+                      minus.svg
+                    </svg>
+                    <svg
+                      class="faq__accordion-icon faq__accordion-icon--open"
+                    >
+                      minus.svg
+                    </svg>
+                  </span>
+                </div>
+                <div
+                  class="accordion-collapse collapse"
+                >
+                  <div
+                    class="faq__accordion-body accordion-body"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+                </div>
+              </button>
+            </h2>
+          </div>
+          <div
+            class="faq__accordion-item accordion-item"
+          >
+            <h2
+              class="faq__accordion-header accordion-header"
+            >
+              <button
+                aria-expanded="false"
+                class="accordion-button collapsed"
+                type="button"
+              >
+                <div
+                  class="faq__accordion-header-content"
+                >
+                  Lorem ipsum dolor sit amet consetetur sadipscing ?
+                  <span
+                    class="faq__accordion-icon-cont"
+                  >
+                    <svg
+                      class="faq__accordion-icon"
+                    >
+                      minus.svg
+                    </svg>
+                    <svg
+                      class="faq__accordion-icon faq__accordion-icon--open"
+                    >
+                      minus.svg
+                    </svg>
+                  </span>
+                </div>
+                <div
+                  class="accordion-collapse collapse"
+                >
+                  <div
+                    class="faq__accordion-body accordion-body"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+                </div>
+              </button>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

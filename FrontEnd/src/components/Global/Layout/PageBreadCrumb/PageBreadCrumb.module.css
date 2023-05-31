@@ -1,0 +1,33 @@
+
+.breadcrumb-nav{
+    background: transparent linear-gradient(91deg,#4807E6 0%, #A152FC 100%) 0% 0%;
+    background-color:var(--main-color);
+    display: flex;
+    align-items: center;
+    margin:10px 0;
+    padding: 10px 0;
+}
+.breadcrumb{
+    background-color:transparent;
+    margin:0;
+}
+.breadcrumb a{
+    color: white !important;
+    font-family: 'PoppinsSemiBold';
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content:url('assets/icons/rightAngle.svg');
+    padding-right:20px;
+}
+.breadcrumb-item+.breadcrumb-item{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.breadcrumb-item{
+    margin-right: 20px;
+}
+.breadcrumb-item.active{
+    color:white;
+    font-family:'PoppinsSemiBold'; 
+}

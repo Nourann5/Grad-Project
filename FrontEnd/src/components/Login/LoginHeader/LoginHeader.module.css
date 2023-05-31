@@ -1,0 +1,35 @@
+
+.login__form-head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.login__return-para{
+    position: absolute;
+    color:var(--text-color-dark);
+    font-size:18px;
+    font-family:'PoppinsMedium';
+    transition:var(--transition);
+}
+.login__return-para:hover{
+    color:var(--main-color);
+}
+.login__return-icon{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.login__logo{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+@media(max-width:426px){
+    .login__return-span{
+        display:none
+    }
+    .login__logo{
+        width:70px;
+        height:70px;
+    }
+}

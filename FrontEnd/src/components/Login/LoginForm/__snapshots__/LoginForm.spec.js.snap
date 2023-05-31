@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Login Form Heading exists 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="login-form-content"
+      >
+        <div
+          class="login__form-content-container"
+        >
+          <p
+            class="login-form-title"
+          >
+            Welcome Back
+          </p>
+          <form
+            class="login-form"
+          >
+            <div
+              class="form__input-cont"
+            >
+              <label
+                class="form__input-label"
+                for="form__input-email"
+              >
+                Email
+              </label>
+              <input
+                class="form__input "
+                id="form__input-email"
+                name="email"
+                placeholder="Type Email Here"
+                type="email"
+              />
+            </div>
+            <div
+              class="form__input-cont"
+            >
+              <label
+                class="form__input-label"
+                for="form__input-password"
+              >
+                Password
+              </label>
+              <div
+                class="form__input-password"
+              >
+                <input
+                  class="form__input "
+                  id="form__input-password"
+                  name="password"
+                  placeholder="Type Password Here"
+                  type="password"
+                />
+                <button
+                  class="form__view-pass"
+                  type="button"
+                >
+                  <svg
+                    class="form__view-pass-icon"
+                  >
+                    passwordViewed.svg
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="login__remeber-me"
+            >
+              <div
+                class="login__remeber-me-cont"
+              >
+                <input
+                  class="login__remeber-me-check"
+                  id="login__remeber-me-check"
+                  type="checkbox"
+                />
+                <label
+                  class="login__remeber-me-label"
+                  for="login__remeber-me-check"
+                >
+                  Remember Me
+                </label>
+              </div>
+              <a
+                class="login__forget-password"
+                href="/forget"
+              >
+                Forgot Password?
+              </a>
+            </div>
+            <button
+              class="form__submit"
+              type="submit"
+            >
+              Login
+            </button>
+          </form>
+          <p
+            class="login__with-other-ways"
+          >
+            Or Login With
+          </p>
+          <div
+            class="login__social-media-cont"
+          >
+            <button
+              class="login__social-media-button"
+            >
+              <svg>
+                facebook.svg
+              </svg>
+            </button>
+            <button
+              class="login__social-media-button"
+            >
+              <svg>
+                google.svg
+              </svg>
+            </button>
+            <button
+              class="login__social-media-button"
+            >
+              <svg>
+                linkedin.svg
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        class="login__dont-have-accout"
+      >
+        Don't Have An Account ?
+        <a
+          class="login__move-to-register"
+          href="/register"
+        >
+           Register
+        </a>
+      </p>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="login-form-content"
+    >
+      <div
+        class="login__form-content-container"
+      >
+        <p
+          class="login-form-title"
+        >
+          Welcome Back
+        </p>
+        <form
+          class="login-form"
+        >
+          <div
+            class="form__input-cont"
+          >
+            <label
+              class="form__input-label"
+              for="form__input-email"
+            >
+              Email
+            </label>
+            <input
+              class="form__input "
+              id="form__input-email"
+              name="email"
+              placeholder="Type Email Here"
+              type="email"
+            />
+          </div>
+          <div
+            class="form__input-cont"
+          >
+            <label
+              class="form__input-label"
+              for="form__input-password"
+            >
+              Password
+            </label>
+            <div
+              class="form__input-password"
+            >
+              <input
+                class="form__input "
+                id="form__input-password"
+                name="password"
+                placeholder="Type Password Here"
+                type="password"
+              />
+              <button
+                class="form__view-pass"
+                type="button"
+              >
+                <svg
+                  class="form__view-pass-icon"
+                >
+                  passwordViewed.svg
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="login__remeber-me"
+          >
+            <div
+              class="login__remeber-me-cont"
+            >
+              <input
+                class="login__remeber-me-check"
+                id="login__remeber-me-check"
+                type="checkbox"
+              />
+              <label
+                class="login__remeber-me-label"
+                for="login__remeber-me-check"
+              >
+                Remember Me
+              </label>
+            </div>
+            <a
+              class="login__forget-password"
+              href="/forget"
+            >
+              Forgot Password?
+            </a>
+          </div>
+          <button
+            class="form__submit"
+            type="submit"
+          >
+            Login
+          </button>
+        </form>
+        <p
+          class="login__with-other-ways"
+        >
+          Or Login With
+        </p>
+        <div
+          class="login__social-media-cont"
+        >
+          <button
+            class="login__social-media-button"
+          >
+            <svg>
+              facebook.svg
+            </svg>
+          </button>
+          <button
+            class="login__social-media-button"
+          >
+            <svg>
+              google.svg
+            </svg>
+          </button>
+          <button
+            class="login__social-media-button"
+          >
+            <svg>
+              linkedin.svg
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <p
+      class="login__dont-have-accout"
+    >
+      Don't Have An Account ?
+      <a
+        class="login__move-to-register"
+        href="/register"
+      >
+         Register
+      </a>
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

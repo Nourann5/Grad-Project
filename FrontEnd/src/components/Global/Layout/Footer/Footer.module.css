@@ -1,0 +1,108 @@
+
+/************************footer*************************************************/
+footer{
+    background-color:#F4F7FA;
+    padding: 60px 0 0; 
+}
+.footer__logo{
+    margin-bottom:25px;
+}
+.footer__subscribe-heading{
+    color:#121212;
+    font-size:20px;
+    font-family: "PoppinsSemiBold";
+    margin-bottom:10px;
+}
+.footer__subscribe-para{
+    color:#121212;
+    font-family: "PoppinsRegular";
+    margin-bottom:20px;
+}
+.footer__subscribe-form{
+    display: flex;
+}
+.footer__subscribe-email{
+    border: 1px solid var(--main-color);
+    border-radius: 4px;
+    padding:20px;
+    width: 240px;
+    height: 50px;
+    color: var(--main-color);
+    margin-right:10px;
+}
+.footer__subscribe-submit-button{
+    background-color: var(--main-color);
+    border-radius: 4px;
+    color: white;
+    font-family: 'PoppinsRegular';
+    width: 150px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.footer__subscribe-submit-button:hover{
+    opacity: .9;
+}
+.footer__copyright{
+    padding: 10px 0;
+    background-color:var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__copyright-cont{
+    color: white;
+    font-size: 15px;
+    font-family: 'PoppinsMedium';
+    margin-right: 60px;
+    margin-bottom: 0;
+}
+.footer__copyright-social{
+    width:25px;
+    height: 25px;   
+}
+.footer__copyright-list{
+    display: flex;
+}
+.footer__copyright-item{
+    margin-right: 15px;
+}
+.footer__links-li{
+    margin-bottom: 20px;
+}
+.footer__links-link{
+    color:#121212;
+    transition:var(--transition)
+}
+.footer__links-link:hover{
+    color: var(--main-color);
+}
+.footer__links-heading{
+    color:#121212;
+    font-family: "PoppinsBold";
+    margin-bottom: 32px;
+}
+@media (max-width:992px) {
+    footer{
+        text-align: center;
+    }
+    .footer__subscribe-form{
+        margin-bottom:30px!important;
+        justify-content: center;
+    }
+
+}
+@media (max-width:426px) {
+    .footer__copyright{
+        flex-direction: column
+    }
+    .footer__copyright-cont{
+        margin: 10px 0;
+    }
+}
+@media (max-width:376px) {
+    .footer__subscribe-email{
+        width: 200px;
+    }
+}

@@ -1,0 +1,129 @@
+
+.toggle-button-cover
+{
+    display: table-cell;
+    position: relative;
+/*     width: 200px; */
+/*     height: 140px; */
+    box-sizing: border-box;
+    margin-right: 60px;
+}
+
+.button-cover
+{
+/*     height: 100px; */
+/*     margin: 20px; */
+    background-color: #fff;
+/*   background-color:red; */
+    box-shadow: 0 10px 20px -8px #c5d6d6;
+    border-radius: 4px;
+}
+
+
+.button-cover, .knobs, .layer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.toggle-button
+{
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+}
+
+.toggle-button.r, .toggle-button.r .layer
+{
+    border-radius: 100px;
+}
+
+.toggle-button.b2
+{
+    border-radius: 2px;
+}
+
+.checkbox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs
+{
+    z-index: 2;
+}
+
+.layer
+{
+    width: 100%;
+    transition: 0.3s ease all;
+    z-index: 1;
+    background-color: #fcebeb;
+}
+/* Button 3 */
+.toggle-button .knobs:before
+{
+    /* content: 'YES'; */
+    content: 'NO';
+    position: absolute;
+    top: 50%;
+    left: 42px;
+    background-color: #F44336;
+    transform: translateY(-50%);
+    /* left: 4px; */
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    /* padding: 6px 4px; */
+    /* background-color: #03A9F4; */
+    border-radius: 50%;
+    transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+}
+
+.toggle-button .checkbox:active + .knobs:before
+{
+    width: 46px;
+    border-radius: 100px;
+}
+
+.toggle-button .checkbox:checked:active + .knobs:before
+{
+    margin-left: -26px;
+}
+
+.toggle-button .checkbox:checked + .knobs:before
+{
+    /* content: 'NO';
+    left: 42px;
+    background-color: #F44336; */
+
+    content: 'YES';
+    left: 4px;
+    background-color: #03A9F4;
+
+}
+
+.toggle-button .checkbox:checked ~ .layer
+{
+    background-color: #ebf7fc;
+}

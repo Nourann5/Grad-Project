@@ -1,0 +1,298 @@
+                            ###############################################
+#EDIT PUBLIC IP & HOSTNAME IN THE CICD SETTINGS FOR DESIRED EC2 SERVERS $public_ip & $SERVER_URL
+#OR USE ELASTIC IP ADDRESSEES FOR PERSISTENT IPs & URLs
+                            ###############################################
+
+#PIPELINE ONLY RUNNING IN MAIN & MERGED REQUESTS
+workflow:
+    rules:
+        - if: $CI_COMMIT_BRANCH != "main" && $CI_PIPELINE_SOURCE != "merge_request_event"
+          when: never
+        - when: always
+stages:
+    - test
+    - build
+    - deploy_dev
+#    - deploy_staging
+#    - deploy_prod
+variables:
+    docker_login : docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    runner : 
+        wardavm                             #VMWARE RUNNER
+        #ec2 , warda                        #EC2 RUNNER
+#    image: $CI_REGISTRY_IMAGE
+    #SERVERS IP ADDRESSES
+    DEVELOPMENT_IP: $public_ip
+#    STAGING_IP: $public_ip
+#    PRODUCTION_IP: $public_ip
+    #SERVERS URLs
+    DEVELOPMENT_URL: $SERVER_URL:$DEVELOPMENT_PORT_FRNT
+#    STAGING_URL: $SERVER_URL:$STAGING_PORT
+#    PRODUCTION_URL: $SERVER_URL:$PRODUCTION_PORT
+    #SERVERS SSH KEYS
+    DEVELOPMENT_SSH: $ssh_key_ec2
+#    STAGING_SSH: $ssh_key_ec2
+#    PRODUCTION_SSH: $ssh_key_ec2
+    #DEPLOYMENT PORTS
+    DEVELOPMENT_PORT_FRNT: 3000
+#    STAGING_PORT_FRNT: 4000
+#    PRODUCTION_PORT_FRNT: 5000
+    DEVELOPMENT_PORT_BCKND: 5555
+#    STAGING_PORT_BCKND: 7000
+#    PRODUCTION_PORT_BCKND: 8000
+
+
+########
+#TESTING
+########
+.unit_testing:
+    image: node:16-alpine
+    stage: test
+    tags:
+        - $runner
+    cache:
+        key: "$CI_COMMIT_REF_NAME"          #The branch or tag name for which project is built
+        paths:
+            - $DIRECTORY/node_modules         #PATH CREATED UPON RUNNING "npm run"
+        policy: pull-push
+    before_script:
+        - cd $DIRECTORY
+    script:
+        - npm install 
+       # - npm run test
+    variables:
+        DIRECTORY: ""
+
+
+.unit_testing_frontend:
+    extends: .unit_testing
+    variables:
+        DIRECTORY: FrontEnd
+    only:
+        changes:
+            - "FrontEnd/**/*"
+
+.unit_testing_backend:
+    extends: .unit_testing
+    variables:
+        DIRECTORY: BackEnd
+    only:
+        changes:
+            - "BackEnd/**/*"
+
+
+#GITLAB PREDEFINED TEMPLATE FOR SECURITY TESTING:
+.include:
+    - template: Jobs/SAST.gitlab-ci.yml
+.sast:
+    stage: test
+    tags: 
+        - $runner
+
+
+#########
+#BUILDING
+#########
+build_image_frontend:
+    image: docker:dind
+    stage: build
+    tags:
+        - $runner
+    before_script:
+        - apk add --no-cache jq httpie                      #INSTALL jq ON THE JOB TEMPORARY CONTAINER
+        - export PACKAGE_JSON_VERSION=$(cat $DIRECTORY/package.json | jq -r .version)         #VERSION IN JSON FILE
+        - export FRONTEND_VERSION=$PACKAGE_JSON_VERSION.$CI_PIPELINE_IID         #SET VERSION TO (JSON VERSION + PIPELINE ID)
+        - echo "FRONTEND_VERSION= $FRONTEND_VERSION" >> f-environmental-variables.env        #STORE VERSION IN ENVIRONMENTAL .ENV FILE
+        - export IMAGE_NAME=$CI_REGISTRY_IMAGE/$MICROSERVICE
+        - $docker_login
+    script:
+        - echo $IMAGE_NAME                  # TEST THE NAME TO SEE IT IN JOB LOGS
+        - echo $FRONTEND_VERSION                     # TEST THE VERSION TO SEE IT IN JOB LOGS
+        - docker build -t $IMAGE_NAME:$FRONTEND_VERSION $DIRECTORY
+        - docker push $IMAGE_NAME:$FRONTEND_VERSION
+    artifacts:
+        reports:
+            dotenv: f-environmental-variables.env
+    variables:
+        MICROSERVICE: frontend
+        DIRECTORY: FrontEnd
+    only:
+        changes:
+            - "FrontEnd/**/*"
+
+build_image_backend:
+    image: docker:dind
+    stage: build
+    tags:
+        - $runner
+    before_script:
+        - apk add --no-cache jq httpie                      #INSTALL jq ON THE JOB TEMPORARY CONTAINER
+        - export PACKAGE_JSON_VERSION=$(cat $DIRECTORY/package.json | jq -r .version)         #VERSION IN JSON FILE
+        - export BACKEND_VERSION=$PACKAGE_JSON_VERSION.$CI_PIPELINE_IID         #SET VERSION TO (JSON VERSION + PIPELINE ID)
+        - echo "BACKEND_VERSION= $BACKEND_VERSION" >> b-environmental-variables.env        #STORE VERSION IN ENVIRONMENTAL .ENV FILE
+        - export IMAGE_NAME=$CI_REGISTRY_IMAGE/$MICROSERVICE
+        - $docker_login
+    script:
+        - echo $IMAGE_NAME                  # TEST THE NAME TO SEE IT IN JOB LOGS
+        - echo $BACKEND_VERSION                  # TEST THE VERSION TO SEE IT IN JOB LOGS
+        - docker build -t $IMAGE_NAME:$BACKEND_VERSION $DIRECTORY
+        - docker push $IMAGE_NAME:$BACKEND_VERSION
+    artifacts:
+        reports:
+            dotenv: b-environmental-variables.env
+    variables:
+        MICROSERVICE: backend
+        DIRECTORY: BackEnd
+    only:
+        changes:
+            - "BackEnd/**/*"
+
+
+
+##########
+#DEPLOYING
+##########
+.deploy:
+    image: docker:dind
+    tags:
+        - $runner
+    before_script:
+        - chmod 400 $SSH_KEY
+        #COPY THE DOCKER-COMPOSE FILE TO DEPLOYMENT SERVER
+        - scp -o StrictHostKeyChecking=no -i $SSH_KEY ./docker-compose.yaml ubuntu@$IP:/home/ubuntu
+    script:
+        #SSH FROM THE CONTAINER INTO THE SERVER & APPLY THE LISTED COMMANDS IN ITS SHELL
+        - ssh -o StrictHostKeyChecking=no -i $SSH_KEY ubuntu@$IP "
+            docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY &&
+            export COMPOSE_PROJECT_NAME=$ENV_NAME &&
+            export DC_IMAGE_NAME=$CI_REGISTRY_IMAGE/$MICROSERVICE &&
+            export DC_IMAGE_VERSION=$MICROSERVICE_VERSION &&
+            export DC_FILE=$DOCKER_PORT
+            export DC_PORT=$PORT &&
+            docker-compose -f docker-compose.yaml down &&        
+            docker-compose -f docker-compose.yaml up -d"
+                        #COMPOSE_PROJECT_NAME IS A DOCKER-COMPOSE PREDEFINED VARIABLE FOR SETTING CONTAINER NAMES
+    variables:
+        DOCKER_PORT: ""
+        MICROSERVICE: ""
+        SSH_KEY: ""
+        IP: ""
+        ENV_NAME: ""
+        PORT: ""
+        URL: ""
+        MICROSERVICE_VERSION: ""
+
+
+deploy_to_development_frontend:
+    extends: .deploy
+    stage: deploy_dev
+    variables:
+        DOCKER_PORT: 80
+        MICROSERVICE: frontend
+        SSH_KEY: $DEVELOPMENT_SSH
+        IP: $DEVELOPMENT_IP
+        ENV_NAME: Development
+        PORT: $DEVELOPMENT_PORT_FRNT
+        MICROSERVICE_VERSION: $FRONTEND_VERSION
+    environment:
+        name: $ENV_NAME
+        url: $DEVELOPMENT_URL
+    only:
+        changes:
+            - "FrontEnd/**/*"
+
+deploy_to_development_backend:
+    extends: .deploy
+    stage: deploy_dev
+    variables:
+        DOCKER_PORT: 5555
+        MICROSERVICE: backend
+        SSH_KEY: $DEVELOPMENT_SSH
+        IP: $DEVELOPMENT_IP
+        ENV_NAME: Development
+        PORT: $DEVELOPMENT_PORT_BCKND
+        MICROSERVICE_VERSION: $BACKEND_VERSION
+    only:
+        changes:
+            - "BackEnd/**/*"
+
+.run_functional_tets:
+    stage: deploy_dev
+    tags:
+        - $runner
+    when:
+        on_success
+    script:
+        #THIS SHOULD BE FUNCTIONAL TESTS FOR POST DEVELOPMENT DEPLOYMENT
+        - echo "This is a test function for development"
+
+
+.deploy_to_staging_frontend:
+    stage: deploy_staging
+    extends: .deploy
+    variables:
+        DOCKER_PORT: 80
+        MICROSERVICE: frontend
+        SSH_KEY: $STAGING_SSH
+        IP: $STAGING_IP
+        ENV_NAME: STAGING
+        PORT: $STAGING_PORT_FRNT
+        URL: $STAGING_URL
+    only:
+        changes:
+            - "FrontEnd/**/*"
+
+.deploy_to_staging_backend:
+    stage: deploy_staging
+    extends: .deploy
+    variables:
+        DOCKER_PORT: 5555
+        MICROSERVICE: backend
+        SSH_KEY: $DEVELOPMENT_SSH
+        IP: $DEVELOPMENT_IP
+        ENV_NAME: Development
+        PORT: $DEVELOPMENT_PORT_BCKND
+        URL: $DEVELOPMENT_URL
+    only:
+        changes:
+            - "BackEnd/**/*"
+
+.run_performance_tests:
+    stage: deploy_staging
+    tags:
+        - $runner
+    when:
+        on_success
+    script:
+        #THIS SHOULD BE PERFORMANCE TESTS FOR POST STAGING DEPLOYMENT
+        - echo "This is a performance test for staging"
+
+
+
+.deploy_to_production_frontend:
+    stage: deploy_prod
+    extends: .deploy
+    variables:
+        DOCKER_PORT: 80
+        MICROSERVICE: frontend
+        SSH_KEY: $PRODUCTION_SSH
+        IP: $PRODUCTION_IP
+        ENV_NAME: PRODUCTION
+        PORT: $PRODUCTION_PORT_FRNT
+        URL: $PRODUCTION_URL
+    #CONTINOUS DELIVERY: MANUAL DEPLOYMENT TO PRODUCTION
+    when: manual
+
+.deploy_to_production_backend:
+    stage: deploy_prod
+    extends: .deploy
+    variables:
+        DOCKER_PORT: 5555
+        MICROSERVICE: backend
+        SSH_KEY: $PRODUCTION_SSH
+        IP: $PRODUCTION_IP
+        ENV_NAME: PRODUCTION
+        PORT: $PRODUCTION_PORT_BCKND
+        URL: $PRODUCTION_URL
+    #CONTINOUS DELIVERY: MANUAL DEPLOYMENT TO PRODUCTION
+    when: manual

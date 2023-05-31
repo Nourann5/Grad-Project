@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the home header heading and buttons exists 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="header"
+      >
+        <div
+          class="h-100 container-lg"
+        >
+          <div
+            class="h-100 row"
+          >
+            <div
+              class="h-100 col-lg-6"
+            >
+              <div
+                class="header__content-cont"
+              >
+                <div
+                  class="header__content-note-cont"
+                >
+                  <p
+                    class="header__content-note"
+                  >
+                    <span
+                      class="header__content-note-title"
+                    >
+                      New!
+                    </span>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing
+                  </p>
+                </div>
+                <div
+                  class="header__content"
+                >
+                  <h1
+                    class="header__content-title"
+                  >
+                    A NICE SECTION HEADING
+                  </h1>
+                  <p
+                    class="header__content-desc"
+                  >
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  </p>
+                </div>
+                <div
+                  class="header__content-actions-cont"
+                >
+                  <a
+                    class="header__content-action-button"
+                    href="/register"
+                  >
+                    <svg
+                      class="header__content-actions-icon"
+                    >
+                      joinPortal.svg
+                    </svg>
+                    join portal
+                  </a>
+                  <button
+                    class="header__content-action-button header__content-action--bg-dark"
+                  >
+                    <svg
+                      class="header__content-actions-icon"
+                    >
+                      moreInfo.svg
+                    </svg>
+                    More Info
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-6"
+            >
+              <div
+                class="header__img-cont"
+              >
+                <img
+                  alt="header img"
+                  class="header__img"
+                  src="homePageHeaderImg.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header"
+    >
+      <div
+        class="h-100 container-lg"
+      >
+        <div
+          class="h-100 row"
+        >
+          <div
+            class="h-100 col-lg-6"
+          >
+            <div
+              class="header__content-cont"
+            >
+              <div
+                class="header__content-note-cont"
+              >
+                <p
+                  class="header__content-note"
+                >
+                  <span
+                    class="header__content-note-title"
+                  >
+                    New!
+                  </span>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing
+                </p>
+              </div>
+              <div
+                class="header__content"
+              >
+                <h1
+                  class="header__content-title"
+                >
+                  A NICE SECTION HEADING
+                </h1>
+                <p
+                  class="header__content-desc"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                </p>
+              </div>
+              <div
+                class="header__content-actions-cont"
+              >
+                <a
+                  class="header__content-action-button"
+                  href="/register"
+                >
+                  <svg
+                    class="header__content-actions-icon"
+                  >
+                    joinPortal.svg
+                  </svg>
+                  join portal
+                </a>
+                <button
+                  class="header__content-action-button header__content-action--bg-dark"
+                >
+                  <svg
+                    class="header__content-actions-icon"
+                  >
+                    moreInfo.svg
+                  </svg>
+                  More Info
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6"
+          >
+            <div
+              class="header__img-cont"
+            >
+              <img
+                alt="header img"
+                class="header__img"
+                src="homePageHeaderImg.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

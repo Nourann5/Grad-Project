@@ -1,0 +1,23 @@
+
+.add-test__configuration-accordion-body{
+    padding: 20px 40px;
+    border-top: 1px solid #00000012;
+}
+.add-test__configuration-accordion-item{
+    /* margin-bottom: 30px; */
+    border: 0;
+    border-top: 1px solid #00000012;
+    border-bottom: 1px solid #00000012;
+}
+.add-test__configuration-label-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-test__config-label{
+    font-family: 'PoppinsSemiBold';
+}
+.add-test__configuration-field-cont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Test Reuslt Table heading exists 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <tr>
+        <th
+          scope="row"
+        />
+        <td>
+          B
+        </td>
+        <td>
+          A
+        </td>
+        <td>
+          <p
+            class="table__user-status d-none"
+          >
+            <span
+              class="table__user-status-color table__user-status-color--new"
+            />
+            <span
+              class="table__user-status-value"
+            >
+              Not Answered
+            </span>
+          </p>
+          <p
+            class="table__user-status d-none"
+          >
+            <span
+              class="table__user-status-color table__user-status-color--active"
+            />
+            <span
+              class="table__user-status-value"
+            >
+              Correct
+            </span>
+          </p>
+          <p
+            class="table__user-status d-none"
+          >
+            <span
+              class="table__user-status-color table__user-status-color--blocked"
+            />
+            <span
+              class="table__user-status-value"
+            >
+              Wrong
+            </span>
+          </p>
+        </td>
+        <td>
+          <button
+            aria-controls="example-collapse-text"
+            aria-expanded="false"
+          >
+            <svg
+              class="table__user-down-arrow"
+            >
+              downArrowResults.svg
+            </svg>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td
+          class="p-0"
+          colspan="5"
+        >
+          <div
+            class="collapse"
+          >
+            <div
+              class="table__row-collapsed"
+            >
+              <div
+                class="test-result__table-collapse-info test-result__table-collapse-info--not-correct"
+              >
+                <h2
+                  class="test__info-heading"
+                >
+                  Questions 1-10 are based on the following passage.
+                </h2>
+                <p>
+                  Akira came directly, breaking all tradition. Was that it? Had he followed form had he asked his mother to speak to his father to approach a Line go-between would Chie have been more receptive? He came on a winter’s eve. He pounded on the door while a cold rain beat on the shuttered veranda, so at first Chie thought him only the wind. The maid knew better. Chie heard her soft scuttling footsteps, the creak of the door. Then the maid brought a 10 calling card to the drawing room, for Chie.
+                </p>
+                <p>
+                  Chie was reluctant to go to her guest; perhaps she was feeling too cozy. She and Naomi were reading at a low table set atop a charcoal brazier. A thick quilt spread over the sides of the table so their legs were 15 tucked inside with the heat. “Who is it at this hour, in this weather?” Chie questioned as she picked the name card off the maid’s lacquer tray.
+                </p>
+                <p>
+                  Chie was reluctant to go to her guest; perhaps she was feeling too cozy. She and Naomi were reading at a low table set atop a charcoal brazier. A thick quilt spread over the sides of the table so their legs were 15 tucked inside with the heat. “Who is it at this hour, in this weather?” Chie questioned as she picked the name card off the maid’s lacquer tray.
+                </p>
+                <p>
+                  Chie was reluctant to go to her guest; perhaps she was feeling too cozy. She and Naomi were reading at a low table set atop a charcoal brazier. A thick quilt spread over the sides of the table so their legs were 15 tucked inside with the heat. “Who is it at this hour, in this weather?” Chie questioned as she picked the name card off the maid’s lacquer tray.
+                </p>
+              </div>
+              <div
+                class="test-result__table-collapse-question test-result__table-collapse-question--not-correct"
+              >
+                <h2
+                  class="test__question-heading"
+                >
+                  Which choice best describes what happens in the passage?
+                </h2>
+                <div
+                  class="test__input-answer"
+                />
+                <div
+                  class="test__choices-wrapper"
+                >
+                  <div
+                    class="test__choice-wrapper test__choice-wrapper--correct"
+                  >
+                    <span
+                      class="test__choice-alpha"
+                    >
+                      A- 
+                    </span>
+                    One Character Argues With Another Character Who Intrudes On
+                  </div>
+                  <div
+                    class="test__choice-wrapper"
+                  >
+                    <span
+                      class="test__choice-alpha"
+                    >
+                      B- 
+                    </span>
+                    One Character Argues With Another Character Who Intrudes On
+                  </div>
+                  <div
+                    class="test__choice-wrapper test__choice-wrapper--not-correct"
+                  >
+                    <span
+                      class="test__choice-alpha"
+                    >
+                      C- 
+                    </span>
+                    One Character Argues With Another Character Who Intrudes On
+                  </div>
+                  <div
+                    class="test__choice-wrapper"
+                  >
+                    <span
+                      class="test__choice-alpha"
+                    >
+                      D- 
+                    </span>
+                    One Character Argues With Another Character Who Intrudes On
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </div>
+  </body>,
+  "container": <div>
+    <tr>
+      <th
+        scope="row"
+      />
+      <td>
+        B
+      </td>
+      <td>
+        A
+      </td>
+      <td>
+        <p
+          class="table__user-status d-none"
+        >
+          <span
+            class="table__user-status-color table__user-status-color--new"
+          />
+          <span
+            class="table__user-status-value"
+          >
+            Not Answered
+          </span>
+        </p>
+        <p
+          class="table__user-status d-none"
+        >
+          <span
+            class="table__user-status-color table__user-status-color--active"
+          />
+          <span
+            class="table__user-status-value"
+          >
+            Correct
+          </span>
+        </p>
+        <p
+          class="table__user-status d-none"
+        >
+          <span
+            class="table__user-status-color table__user-status-color--blocked"
+          />
+          <span
+            class="table__user-status-value"
+          >
+            Wrong
+          </span>
+        </p>
+      </td>
+      <td>
+        <button
+          aria-controls="example-collapse-text"
+          aria-expanded="false"
+        >
+          <svg
+            class="table__user-down-arrow"
+          >
+            downArrowResults.svg
+          </svg>
+        </button>
+      </td>
+    </tr>
+    <tr>
+      <td
+        class="p-0"
+        colspan="5"
+      >
+        <div
+          class="collapse"
+        >
+          <div
+            class="table__row-collapsed"
+          >
+            <div
+              class="test-result__table-collapse-info test-result__table-collapse-info--not-correct"
+            >
+              <h2
+                class="test__info-heading"
+              >
+                Questions 1-10 are based on the following passage.
+              </h2>
+              <p>
+                Akira came directly, breaking all tradition. Was that it? Had he followed form had he asked his mother to speak to his father to approach a Line go-between would Chie have been more receptive? He came on a winter’s eve. He pounded on the door while a cold rain beat on the shuttered veranda, so at first Chie thought him only the wind. The maid knew better. Chie heard her soft scuttling footsteps, the creak of the door. Then the maid brought a 10 calling card to the drawing room, for Chie.
+              </p>
+              <p>
+                Chie was reluctant to go to her guest; perhaps she was feeling too cozy. She and Naomi were reading at a low table set atop a charcoal brazier. A thick quilt spread over the sides of the table so their legs were 15 tucked inside with the heat. “Who is it at this hour, in this weather?” Chie questioned as she picked the name card off the maid’s lacquer tray.
+              </p>
+              <p>
+                Chie was reluctant to go to her guest; perhaps she was feeling too cozy. She and Naomi were reading at a low table set atop a charcoal brazier. A thick quilt spread over the sides of the table so their legs were 15 tucked inside with the heat. “Who is it at this hour, in this weather?” Chie questioned as she picked the name card off the maid’s lacquer tray.
+              </p>
+              <p>
+                Chie was reluctant to go to her guest; perhaps she was feeling too cozy. She and Naomi were reading at a low table set atop a charcoal brazier. A thick quilt spread over the sides of the table so their legs were 15 tucked inside with the heat. “Who is it at this hour, in this weather?” Chie questioned as she picked the name card off the maid’s lacquer tray.
+              </p>
+            </div>
+            <div
+              class="test-result__table-collapse-question test-result__table-collapse-question--not-correct"
+            >
+              <h2
+                class="test__question-heading"
+              >
+                Which choice best describes what happens in the passage?
+              </h2>
+              <div
+                class="test__input-answer"
+              />
+              <div
+                class="test__choices-wrapper"
+              >
+                <div
+                  class="test__choice-wrapper test__choice-wrapper--correct"
+                >
+                  <span
+                    class="test__choice-alpha"
+                  >
+                    A- 
+                  </span>
+                  One Character Argues With Another Character Who Intrudes On
+                </div>
+                <div
+                  class="test__choice-wrapper"
+                >
+                  <span
+                    class="test__choice-alpha"
+                  >
+                    B- 
+                  </span>
+                  One Character Argues With Another Character Who Intrudes On
+                </div>
+                <div
+                  class="test__choice-wrapper test__choice-wrapper--not-correct"
+                >
+                  <span
+                    class="test__choice-alpha"
+                  >
+                    C- 
+                  </span>
+                  One Character Argues With Another Character Who Intrudes On
+                </div>
+                <div
+                  class="test__choice-wrapper"
+                >
+                  <span
+                    class="test__choice-alpha"
+                  >
+                    D- 
+                  </span>
+                  One Character Argues With Another Character Who Intrudes On
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

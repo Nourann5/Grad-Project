@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Registeration Form  Registeration Form 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+    <div>
+      <div
+        class="first-sign-up-form-content"
+      >
+        <div
+          class="first-sign-up__form-content-container"
+        >
+          <p
+            class="first-sign-up-form-title"
+          >
+            Getting Started
+          </p>
+          <p
+            class="first-sign-up-form-second-title"
+          >
+            Lorem ipsum dolor sit amet, consetetur sadipscin nsetetur sadipscing
+          </p>
+          <div
+            class="justify-content-center row"
+          >
+            <div
+              class="mb-4  col-lg-3 col-md-4 col-6"
+            >
+              <input
+                class="first-sign-up__role-input-radio"
+                id="registerStudentType"
+                name="user_type"
+                type="radio"
+                value="student"
+              />
+              <label
+                class="first-sign-up__role"
+                for="registerStudentType"
+              >
+                <svg
+                  class="first-sign-up__role-icon"
+                >
+                  studentIcon.svg
+                </svg>
+                <p
+                  class="first-sign-up__role-name"
+                >
+                  Student
+                </p>
+              </label>
+            </div>
+            <div
+              class="mb-4  col-lg-3 col-md-4 col-6"
+            >
+              <input
+                class="first-sign-up__role-input-radio"
+                id="registerTeacherType"
+                name="user_type"
+                type="radio"
+                value="teacher"
+              />
+              <label
+                class="first-sign-up__role"
+                for="registerTeacherType"
+              >
+                <svg
+                  class="first-sign-up__role-icon"
+                >
+                  teacherIcon.svg
+                </svg>
+                <p
+                  class="first-sign-up__role-name"
+                >
+                  Teacher
+                </p>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p
+        class="first-sign-up__alredy-have-accout"
+      >
+         Already Have An Account ?
+        <a
+          class="first-sign-up__move-to-login"
+          href="/login"
+        >
+           Log In
+        </a>
+      </p>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="first-sign-up-form-content"
+    >
+      <div
+        class="first-sign-up__form-content-container"
+      >
+        <p
+          class="first-sign-up-form-title"
+        >
+          Getting Started
+        </p>
+        <p
+          class="first-sign-up-form-second-title"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscin nsetetur sadipscing
+        </p>
+        <div
+          class="justify-content-center row"
+        >
+          <div
+            class="mb-4  col-lg-3 col-md-4 col-6"
+          >
+            <input
+              class="first-sign-up__role-input-radio"
+              id="registerStudentType"
+              name="user_type"
+              type="radio"
+              value="student"
+            />
+            <label
+              class="first-sign-up__role"
+              for="registerStudentType"
+            >
+              <svg
+                class="first-sign-up__role-icon"
+              >
+                studentIcon.svg
+              </svg>
+              <p
+                class="first-sign-up__role-name"
+              >
+                Student
+              </p>
+            </label>
+          </div>
+          <div
+            class="mb-4  col-lg-3 col-md-4 col-6"
+          >
+            <input
+              class="first-sign-up__role-input-radio"
+              id="registerTeacherType"
+              name="user_type"
+              type="radio"
+              value="teacher"
+            />
+            <label
+              class="first-sign-up__role"
+              for="registerTeacherType"
+            >
+              <svg
+                class="first-sign-up__role-icon"
+              >
+                teacherIcon.svg
+              </svg>
+              <p
+                class="first-sign-up__role-name"
+              >
+                Teacher
+              </p>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p
+      class="first-sign-up__alredy-have-accout"
+    >
+       Already Have An Account ?
+      <a
+        class="first-sign-up__move-to-login"
+        href="/login"
+      >
+         Log In
+      </a>
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

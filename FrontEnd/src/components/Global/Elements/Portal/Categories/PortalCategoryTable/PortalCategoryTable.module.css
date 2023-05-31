@@ -1,0 +1,135 @@
+.table-cont{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0px 20px 0px rgb(0 0 0 / 30%);
+}
+.table__title{
+    font-size: 23px;
+    font-family: PoppinsBold;
+    margin-bottom: 25px;
+    color: var(--main-color);
+}
+
+.table{
+    border-collapse: inherit;
+}
+.table thead tr{
+    border-bottom: 1px solid #e4e4e4!important;
+}
+.table thead th{
+    color: #737171;
+    font-size: 14px;
+}
+.table tbody tr{
+    border-bottom: 1px solid #e4e4e4!important;
+}
+.table tbody td{
+    vertical-align: middle;
+}
+.table tbody th{
+    vertical-align: middle;
+}
+.table__user-img-wrapper{
+    display: flex;
+    align-items: center;
+}
+.table__user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* margin-right: 10px; */
+}
+.table__user-file-icon{
+    width: 60px;
+    height: 60px;
+    /* border-radius: 50%; */
+    /* margin-right: 10px; */
+}
+.table__user-name{
+    font-size: 16px;
+    margin: 0;
+    line-height: 16px;
+    margin-bottom: 2px;
+}
+.table__user-email{
+    font-size: 14px;
+    color: #737171;
+    line-height: 16px;
+}
+.table__user-status-cont{
+
+}
+.table__user-add-section-buttons{
+    margin-right: 5px;
+    border-radius: 3px;
+    color: white;
+    padding: 7px 15px;
+    background-color: var(--main-color);
+}
+.table__user-add-section-buttons:hover{
+    color: white;
+}
+.table__user-status-buttons{
+    margin-right: 5px;
+    border-radius: 3px;
+    color: white;
+    padding: 7px 15px;
+}
+
+.table__user-status-buttons--active{
+    background-color: #3AC47D;
+}
+.table__user-status-buttons--blocked{
+    background-color: #E15173;
+}
+.table__user-status-buttons--not-active{
+    background-color: #dcdcdc;
+    color: black;
+}
+
+.table__user-status{
+    display: flex;
+    align-items: center;
+}
+.table__user-status-color{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    margin-right: 5px;
+}
+.table__user-status-color--active{
+    background-color:#25be64
+}
+.table__user-status-color--blocked{
+    background-color:#E15173
+}
+.table__user-status-color--new{
+    background-color:#febf02
+
+}
+.table__user-status-value{
+    font-size: 14px;
+    font-family: 'PoppinsMedium';
+}
+.table__user-action-button{
+
+}
+.table__user-action-cont{
+    display: flex;
+    align-items: center;
+}
+.table__user-action-icon{
+    width:20px;
+    height:20px;
+}
+.table__user-action-icon--edit{
+    color:var(--main-color)
+}
+.table__user-action-icon--delete path{
+    fill:#E15173
+}
+.table__user-group{
+    width: max-content;
+    text-transform: capitalize;
+}

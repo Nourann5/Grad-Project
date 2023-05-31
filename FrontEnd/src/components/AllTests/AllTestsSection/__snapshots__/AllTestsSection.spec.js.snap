@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the All Tests Section Heading exists 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="show-tests"
+      >
+        <div
+          class="container-lg"
+        >
+          <div
+            class="show-categories__filter"
+          >
+            <span
+              class="show-categories__filter-span"
+            >
+              Sort By
+              <svg>
+                sortBy.svg
+              </svg>
+            </span>
+            <div
+              class="show-categories__filter-items"
+            >
+              <button
+                class="show-categories__filter-button btn 
+                active"
+              >
+                All
+              </button>
+              <button
+                class="show-categories__filter-button btn 
+                "
+              >
+                Writing
+              </button>
+              <button
+                class="show-categories__filter-button btn 
+                "
+              >
+                Reading
+              </button>
+              <button
+                class="show-categories__filter-button btn 
+                "
+              >
+                Math Without Calc
+              </button>
+              <button
+                class="show-categories__filter-button btn 
+                "
+              >
+                Math With Calc
+              </button>
+            </div>
+          </div>
+          <div
+            class="show-tests__cats"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="mb-4 col-lg-4 col-md-6"
+                data-filter="r,w,mwo"
+              >
+                <div
+                  class="show-categories__cat"
+                >
+                  <a
+                    class="show-categories__cat-link"
+                    href="/exams/undefined"
+                  />
+                  <div
+                    class="show-categories__img-container"
+                  >
+                    <img
+                      class="show-categories__img"
+                    />
+                    <h2
+                      class="show-categories__cat-title"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mb-4 col-lg-4 col-md-6"
+                data-filter="r,w,mw"
+              >
+                <div
+                  class="show-categories__cat"
+                >
+                  <a
+                    class="show-categories__cat-link"
+                    href="/exams/undefined"
+                  />
+                  <div
+                    class="show-categories__img-container"
+                  >
+                    <img
+                      class="show-categories__img"
+                    />
+                    <h2
+                      class="show-categories__cat-title"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mb-4 col-lg-4 col-md-6"
+                data-filter="mw,mwo"
+              >
+                <div
+                  class="show-categories__cat"
+                >
+                  <a
+                    class="show-categories__cat-link"
+                    href="/exams/undefined"
+                  />
+                  <div
+                    class="show-categories__img-container"
+                  >
+                    <img
+                      class="show-categories__img"
+                    />
+                    <h2
+                      class="show-categories__cat-title"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mb-4 col-lg-4 col-md-6"
+                data-filter="r"
+              >
+                <div
+                  class="show-categories__cat"
+                >
+                  <a
+                    class="show-categories__cat-link"
+                    href="/exams/undefined"
+                  />
+                  <div
+                    class="show-categories__img-container"
+                  >
+                    <img
+                      class="show-categories__img"
+                    />
+                    <h2
+                      class="show-categories__cat-title"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mb-4 col-lg-4 col-md-6"
+                data-filter="w"
+              >
+                <div
+                  class="show-categories__cat"
+                >
+                  <a
+                    class="show-categories__cat-link"
+                    href="/exams/undefined"
+                  />
+                  <div
+                    class="show-categories__img-container"
+                  >
+                    <img
+                      class="show-categories__img"
+                    />
+                    <h2
+                      class="show-categories__cat-title"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mb-4 col-lg-4 col-md-6"
+                data-filter="r,w,mw,mwo"
+              >
+                <div
+                  class="show-categories__cat"
+                >
+                  <a
+                    class="show-categories__cat-link"
+                    href="/exams/undefined"
+                  />
+                  <div
+                    class="show-categories__img-container"
+                  >
+                    <img
+                      class="show-categories__img"
+                    />
+                    <h2
+                      class="show-categories__cat-title"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mb-4 col-lg-4 col-md-6"
+                data-filter="mwo"
+              >
+                <div
+                  class="show-categories__cat"
+                >
+                  <a
+                    class="show-categories__cat-link"
+                    href="/exams/undefined"
+                  />
+                  <div
+                    class="show-categories__img-container"
+                  >
+                    <img
+                      class="show-categories__img"
+                    />
+                    <h2
+                      class="show-categories__cat-title"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="show-tests"
+    >
+      <div
+        class="container-lg"
+      >
+        <div
+          class="show-categories__filter"
+        >
+          <span
+            class="show-categories__filter-span"
+          >
+            Sort By
+            <svg>
+              sortBy.svg
+            </svg>
+          </span>
+          <div
+            class="show-categories__filter-items"
+          >
+            <button
+              class="show-categories__filter-button btn 
+                active"
+            >
+              All
+            </button>
+            <button
+              class="show-categories__filter-button btn 
+                "
+            >
+              Writing
+            </button>
+            <button
+              class="show-categories__filter-button btn 
+                "
+            >
+              Reading
+            </button>
+            <button
+              class="show-categories__filter-button btn 
+                "
+            >
+              Math Without Calc
+            </button>
+            <button
+              class="show-categories__filter-button btn 
+                "
+            >
+              Math With Calc
+            </button>
+          </div>
+        </div>
+        <div
+          class="show-tests__cats"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="mb-4 col-lg-4 col-md-6"
+              data-filter="r,w,mwo"
+            >
+              <div
+                class="show-categories__cat"
+              >
+                <a
+                  class="show-categories__cat-link"
+                  href="/exams/undefined"
+                />
+                <div
+                  class="show-categories__img-container"
+                >
+                  <img
+                    class="show-categories__img"
+                  />
+                  <h2
+                    class="show-categories__cat-title"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-4 col-lg-4 col-md-6"
+              data-filter="r,w,mw"
+            >
+              <div
+                class="show-categories__cat"
+              >
+                <a
+                  class="show-categories__cat-link"
+                  href="/exams/undefined"
+                />
+                <div
+                  class="show-categories__img-container"
+                >
+                  <img
+                    class="show-categories__img"
+                  />
+                  <h2
+                    class="show-categories__cat-title"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-4 col-lg-4 col-md-6"
+              data-filter="mw,mwo"
+            >
+              <div
+                class="show-categories__cat"
+              >
+                <a
+                  class="show-categories__cat-link"
+                  href="/exams/undefined"
+                />
+                <div
+                  class="show-categories__img-container"
+                >
+                  <img
+                    class="show-categories__img"
+                  />
+                  <h2
+                    class="show-categories__cat-title"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-4 col-lg-4 col-md-6"
+              data-filter="r"
+            >
+              <div
+                class="show-categories__cat"
+              >
+                <a
+                  class="show-categories__cat-link"
+                  href="/exams/undefined"
+                />
+                <div
+                  class="show-categories__img-container"
+                >
+                  <img
+                    class="show-categories__img"
+                  />
+                  <h2
+                    class="show-categories__cat-title"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-4 col-lg-4 col-md-6"
+              data-filter="w"
+            >
+              <div
+                class="show-categories__cat"
+              >
+                <a
+                  class="show-categories__cat-link"
+                  href="/exams/undefined"
+                />
+                <div
+                  class="show-categories__img-container"
+                >
+                  <img
+                    class="show-categories__img"
+                  />
+                  <h2
+                    class="show-categories__cat-title"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-4 col-lg-4 col-md-6"
+              data-filter="r,w,mw,mwo"
+            >
+              <div
+                class="show-categories__cat"
+              >
+                <a
+                  class="show-categories__cat-link"
+                  href="/exams/undefined"
+                />
+                <div
+                  class="show-categories__img-container"
+                >
+                  <img
+                    class="show-categories__img"
+                  />
+                  <h2
+                    class="show-categories__cat-title"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-4 col-lg-4 col-md-6"
+              data-filter="mwo"
+            >
+              <div
+                class="show-categories__cat"
+              >
+                <a
+                  class="show-categories__cat-link"
+                  href="/exams/undefined"
+                />
+                <div
+                  class="show-categories__img-container"
+                >
+                  <img
+                    class="show-categories__img"
+                  />
+                  <h2
+                    class="show-categories__cat-title"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

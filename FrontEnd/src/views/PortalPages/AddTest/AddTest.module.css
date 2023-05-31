@@ -1,0 +1,120 @@
+.add-test__form{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.add-test__load-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: .8;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-test__load-img{
+    width: 200px;
+    height: 200px;
+}
+.add-test__form-left-section ,.add-test__form-right-section,.accordion{
+    transition: var(--transition);
+}
+.add-test__form.close-side-menu .add-test__form-left-section{
+    width: 0;
+}
+.add-test__form.close-side-menu .add-test__form-right-section{
+    width: 100%;
+}
+.add-test__form-configration{
+    /* width: 200px; */
+    height: 100vh;
+    overflow-y: auto;
+    margin-right: 5px;
+    background-color:white;
+    border-bottom: 1px solid #00000012;
+    box-shadow: 0 2px 6px #00000012;
+}
+.add-test__form-view{
+    flex-grow: 1;
+    height: 100%;
+
+    background-color:white;
+}
+.add-test__configuration__logo-cont{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    height: 60px;
+    /* box-shadow: 0 2px 6px #00000012; */
+    border-bottom: 1px solid #00000012;
+    margin-bottom: 30px;
+}
+.add-test__configuration__logo{
+    width: 150px;
+    margin: auto;
+    /* margin-right: 20px; */
+}
+.add-test__add-button{
+    background-color: transparent;
+    border: 3px solid var(--main-color)!important;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.add-test__add-button-icon{
+    width: 35px;
+    height: 35px;
+    color: var(--main-color);
+}
+
+.add-test__configuration-accordion-body{
+    padding: 20px 40px;
+    border-top: 1px solid #00000012;
+}
+.add-test__configuration-accordion-item{
+    /* margin-bottom: 30px; */
+    border: 0;
+    border-top: 1px solid #00000012;
+    border-bottom: 1px solid #00000012;
+}
+.add-test__configuration-label-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-test__config-label{
+    font-family: 'PoppinsSemiBold';
+}
+.add-test__configuration-field-cont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:992px){
+    .add-test__form-configration{
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .add-test__form.close-side-menu .add-test__form-left-section{
+        width: 100%;
+        /* height: 100%; */
+        /* overflow: hidden; */
+    }
+    .add-test__form.close-side-menu .add-test__form-right-section{
+        width: 100%;
+        /* height: 100%; */
+    }
+    
+}

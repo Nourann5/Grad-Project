@@ -1,0 +1,98 @@
+.header{
+    /* background-color: red; */
+    background-color: white;
+    padding: 100px 0;
+    /* min-height: 600px; */
+}
+.header__content-note{
+    padding: 10px 40px;
+    background-color: #F4F7FA;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.header__content-note-title{
+    background-color: #FFD101;
+    border-radius: 27px;
+    color: white;
+    margin-right: 30px;
+    font-size: 21px;
+    font-family: 'PoppinsBoldItalic';
+    padding: 10px 23px;
+}
+.header__content-title{
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: 'PoppinsBold';
+}
+.header__content-desc{
+    font-size: 20px;
+    font-family: 'PoppinsRegular';
+    margin-bottom: 110px;
+}
+
+.header__content-action-button{
+    background-color: var(--main-color);
+    border-radius: 4px;
+    padding: 18px 60px;
+    color: white;
+    margin-right: 20px;
+    border:2px solid var(--main-color)!important;
+}
+.header__content-action-button:hover{
+    color: white;
+    opacity: .9;
+}
+.header__content-action--bg-dark{
+    background-color: transparent;
+    color: var(--main-color)!important;
+    margin-right: 0;
+}
+.header__content-action--bg-dark:hover{
+    color: var(--main-color);
+    opacity: .9;
+}
+.header__content-actions-icon{
+    margin-right: 10px;
+    height: 24px;
+}
+.header__content-action-button svg path{
+    fill:white
+}
+.header__content-action--bg-dark svg path{
+    fill:var(--main-color)
+}
+
+.header__img-cont{
+    height: 100%;
+}
+.header__img{
+    height: 100%;
+}
+
+@media (max-width:992px) {
+    .header{
+        padding: 40px 0;
+    }
+    .header__content-desc{
+        margin-bottom: 30px;
+    }
+    .header__img{
+        display: none;
+    }
+    .header__content-actions-cont{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header__content-action-button{
+        padding: 8px 20px;
+        margin-right: 10px;
+    }
+    .header__content-actions-icon{
+        margin-right: 10px;
+        height: 24px;
+    } 
+}
